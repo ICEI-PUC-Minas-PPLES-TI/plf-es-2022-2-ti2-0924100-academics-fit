@@ -1,19 +1,23 @@
-# Nome do projeto
+# Academics FIT
 
-Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
+O objetivo do projeto é unir os Personal Trainners aos clientes de determinada academia, facilitando suas interações e encontros. A aplicação visa mostrar diferentes profissionais e suas especialidades dentro da área da musculação, apresentando para o consumidor a diversidade de opções e focos a se seguir no treino.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Diogo Martins de Assis
+* Enzo Otavio Peligrino
+* Gabriel Dolabela Marques
+* Henrique Carvalho Almeida
+* João Pedro de Oliveira Pauletti
+* Lucas Monteiro Lima
 
 ## Professor
 
-* Nome completo do professor
+* Cristiano Geraldo Teixeira Silva
+* Felipe Augusto Lima Reis
+* Hugo Bastos de Paula
 
-## Instruções de utilização
+## Instruções de utilização (AINDA NÃO CONCLUÍDO)
 
 Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
 
