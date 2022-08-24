@@ -1,18 +1,25 @@
-# TITULO DO PROJETO
+# ACADEMICS FIT
 
 
-**Nome completo do Aluno 1, email do aluno 1**
+**Diogo Martins de Assis, diogoassis3301@gmail.com**
 
-**Nome completo do Aluno 2, email do aluno 2**
+**Enzo Otavio Peligrino, peligrinoenzootavio@gmail.com**
 
-**Nome completo do Aluno 3, email do aluno 3**
+**Gabriel Dolabela Marques, dolabelag@gmail.com**
+
+**Henrique Carvalho Almeida, email do aluno 3**
+
+**João Pedro de Oliveira Pauletti, Jpedropauletti@gmail.com**
+
+**Lucas Monteiro Lima, lucas.m.lima@gmail.com**
 
 ---
 
 Professores:
 
-** Prof. NOme do Prof 1 **
-** Prof. NOme do Prof 2 **
+** Prof. Cristiano Geraldo Teixeira Silva **
+** Prof. Felipe Augusto Lima Reis **
+** Prof. Hugo Bastos de Paula **
 
 ---
 
