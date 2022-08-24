@@ -38,7 +38,7 @@ _**Constatando-se que, com o avanço da tecnologia, tem-se aprimorado diversas i
 
     1.1 Contextualização
 
-**Percebe-se que o mundo tem se tornado cada mais evoluído, e que essas tecnologia e suas aplicações são imensuráveis, mas ainda existem áreas que essa evolução ainda se permanece pouco difundida, como nas pequenas academias, que não conseguem estabelecer uma comunicação de maneira eficiente entre seus profissionais e seus clientes.
+**Percebe-se que o mundo tem se tornado cada mais evoluído tecnologicamente, e que essas tecnologia e suas aplicações são imensuráveis, mas ainda existem áreas que essa evolução ainda se permanece pouco difundida, como nas pequenas academias, que não conseguem estabelecer uma comunicação de maneira eficiente entre seus profissionais e seus clientes.
 O aplicativo em desenvolvimento, surge para solucionar esse deficit gerado pela falta de tecnologias mais caras, na qual pequenas academias não podem bancar, e/ou outros fatores que dificultam a interação entre essas pessoas.**
 
     1.2 Problema
