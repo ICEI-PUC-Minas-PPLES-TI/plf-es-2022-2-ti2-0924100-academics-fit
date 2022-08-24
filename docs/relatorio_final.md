@@ -7,7 +7,7 @@
 
 **Gabriel Dolabela Marques, dolabelag@gmail.com**
 
-**Henrique Carvalho Almeida, email do aluno 3**
+**Henrique Carvalho Almeida, hcarvalhoalmeida7@gmail.com**
 
 **João Pedro de Oliveira Pauletti, Jpedropauletti@gmail.com**
 
@@ -29,54 +29,44 @@ _Instituto de Informática e Ciências Exatas – Pontifícia Universidade de Mi
 
 ---
 
-_**Resumo**. Escrever aqui o resumo. O resumo deve contextualizar rapidamente o trabalho, descrever seu objetivo e, ao final, 
-mostrar algum resultado relevante do trabalho (até 10 linhas)._
+_**Constatando-se que, com o avanço da tecnologia, tem-se aprimorado diversas interações e adiantado diversos procedimentos do dia a dia, mas ainda há uma desconexão quando tentamos perceber as tecnologias nas pequenas academias e como elas podem facilitar alguns processos de inter-relação. Com base nisso, nossa equipe idealizou uma tecnologia que foca em unir os Personal Trainners com os clientes da academia, visando facilitar a relação de Aluno-Professor. A academia, primeiramente, registrará seus profissionais, com suas especialidades e contatos, e depois notificará os clientes, após o cadastro na academia e criação da ficha, o envio da chave, para acesso do aplicativo, no email.**
 
 ---
 
 
 ## 1. Introdução
 
-A introdução deve apresentar de dois ou quatro parágrafos de contextualização do trabalho. 
-
     1.1 Contextualização
 
-Na **contextualização**, o aluno deve dizer do que se trata o trabalho, em que área ou contexto se insere. 
-A **contextualização** deve ser desenvolvida de algo mais genérico para algo mais específico. 
-A citação de pesquisas quantitativas é bem aceita aqui (corretamente referenciadas).
+**Percebe-se que o mundo tem se tornado cada mais evoluído, e que essas tecnologia e suas aplicações são imensuráveis, mas ainda existem áreas que essa evolução ainda se permanece pouco difundida, como nas pequenas academias, que não conseguem estabelecer uma comunicação de maneira eficiente entre seus profissionais e seus clientes.
+O aplicativo em desenvolvimento, surge para solucionar esse deficit gerado pela falta de tecnologias mais caras, na qual pequenas academias não podem bancar, e/ou outros fatores que dificultam a interação entre essas pessoas.**
 
     1.2 Problema
 
-Em seguida o aluno deve caminhar a contextualização para descrever o **problema** que o artigo trata. 
-O **problema** pode ser algo vivido em uma empresa específica. Neste caso, o aluno deve rapidamente apresentar 
-o cenário de problema da empresa. A empresa só deve ser citada explicitamente se o aluno tiver autorização 
-para tal.
+**Nota-se que a má gestão do tempo dos profissionais da academia levam à maus encontros entre estes e os clientes, além da falta de informação que o cliente tem em relação aos profissionais que serão contratados, pois oferecem diferentes tipos de treino, e a falta de comunicação em momentos de imprevisibilidade que acabam afetando no cancelamento de determinadas aulas previamente marcadas.**
 
     1.3 Objetivo geral
 
-O aluno deve escrever um pequeno parágrafo ou frase com o **objetivo geral** do trabalho. 
-O objetivo deve ser bem direto, específico e definido com verbos de ação (elaborar, propor, ava-liar, comparar etc.).
+**É uma aplicação que busca otimizar o tempo dos profissionais de educação física e facilitar a interação Profissional-Aluno.**
 
         1.3.1 Objetivos específicos
 
-Apresente também alguns (pelo menos 2) **objetivos específicos** dependendo de onde você vai querer 
-concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+**Temos como objetivo, criar um cadastro para os profissionais com suas especialidades, criar um cadastro para os alunos, conectar os profissionais com os alunos através de uma agenda para aulas/encontros.**
 
     1.4 Justificativas
 
-Mostre também as **justificativas** para o 
-desenvolvimento do seu trabalho e, caso deseje, desta-que alguma contribuição do trabalho.
+**Durante a idealização do projeto e os problemas que o circundava, percebemos que há poucas alternativas para a solução desse adversidade.**
 
 
 ## 2. Participantes do processo
 
-Apresente aqui os diferentes perfis dos Stakeholders (participantes do processo) chave do sistema. Diversas são as informações que podem ser relevantes para a definição dos perfis dos usuários, tais como idade, gênero, aspectos culturais, nível de educação, entre outros. A pesquisa de mercado pode ser uma ferramenta poderosa para se identificar e caracterizar os perfis de usuários.
+**Para o projeto, reconhecemos que as entidades envolvidas são as: Academias(Secretaria), pois ela que enviará o link de cadastro, tanto para o profissional, quanto para o cliente, que preencherá a ficha virtual; Profissionais da academia, que atenderão os clientes nos horários marcados no aplicativo; Clientes, que utilizarão do aplicativo para marcar a aula.**
 
 ## 3. Modelagem do processo de negócio
 
 ## 3.1. Análise da situação atual
 
-Apresente uma descrição textual de como os sistemas atuais resolvem o problema que se propoe a resolver.  Caso sua proposta seja inovadora e não existam processos claramente definidos, **apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente**, mesmo que não se utilize tecnologia computacional.
+**Na busca para encontrar aplicações que já supriam essas adversidades, notamos um aplicativo similar, mas que não possue o mesmo processo, pois o cadastro é realizado pelo Personal Trainner, com nossa metolodogia, ambos terão mais autonomia para utilização da aplicação, além do intermédio da academia.**
 
 ## 3.2. Descrição Geral da proposta
 
