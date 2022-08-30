@@ -72,6 +72,8 @@ O aplicativo em desenvolvimento, surge para solucionar esse deficit gerado pela 
 
 **A proposta é criar um aplicativo que possibilite a uma academia gerenciar seus alunos e permitir que eles econtrem personais que supram suas necessidade específicas de treinamento e que também permita a personais buscarem mais alunos e que esses alunos possam se organizar de forma a encaixar nas suas agendas de maneira mais fácil através de um unico sistema. Na busca para encontrar aplicações que já supriam essas adversidades, notamos um aplicativo similar, mas que não possue o mesmo processo, pois o cadastro é realizado pelo Personal Trainner, com nossa metolodogia, ambos terão mais autonomia para utilização da aplicação, além do intermédio da academia.**
 
+**Com foco na diversidade de escolha para o usuário, o mesmo possui liberdade para montar a própria ficha, escolhendo dentre as opções (que serão especificadas na aplicação), a que melhor se enquadra em sua procura, ele também terá a liberdade de escolher onde praticar seus treinos, podendo ser em um local específico, ou dentro de sua própria casa, assim trazendo comodidade e livre arbítrio para escolher uma "rotina" que se encaixe melhor em seu tempo, o cliente poderá especificar suas dificuldades durante treinos posteriores (caso possua) como complemento a mais para o Personal Trainner que realizará atividades com o cliente.**
+
 Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias.
 
 ## 3.3. Modelagem dos Processos
