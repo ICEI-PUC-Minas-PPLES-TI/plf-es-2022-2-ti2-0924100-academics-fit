@@ -66,9 +66,11 @@ O aplicativo em desenvolvimento, surge para solucionar esse deficit gerado pela 
 
 ## 3.1. Análise da situação atual
 
-**Na busca para encontrar aplicações que já supriam essas adversidades, notamos um aplicativo similar, mas que não possue o mesmo processo, pois o cadastro é realizado pelo Personal Trainner, com nossa metolodogia, ambos terão mais autonomia para utilização da aplicação, além do intermédio da academia.**
+**Uma Academia possui diversos processos internos que regulam o seu funcionamento diário e a entrada e saída de caixa assim como de pessoas, sejam elas alunos, professores ou personals. Um desses processos é a admissão de novos alunos, ele é caracterizado pelas seguintes etapas: O cliente conhece a academia, seja através de propagandas e estratégias de marketing, ou indicação, uma vez na academia ele passa por uma série de exames, que determinam sua aptidão para a prática de exercícios físicos, tem suas medidas tiradas, IMC calculado e seus objetivos de treinamento determinados. Após tudo isso feito, ou caso o cliente já tenha vindo de outra academia e apresentar os laudos médicos, ele pode iniciar um período de testes sem precisar pagar a mensalidade, caso venha a gostar das instalações ele pode optar por se matricular e se tornar um aluno da academia.**
 
 ## 3.2. Descrição Geral da proposta
+
+**Na busca para encontrar aplicações que já supriam essas adversidades, notamos um aplicativo similar, mas que não possue o mesmo processo, pois o cadastro é realizado pelo Personal Trainner, com nossa metolodogia, ambos terão mais autonomia para utilização da aplicação, além do intermédio da academia.**
 
 Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias.
 
