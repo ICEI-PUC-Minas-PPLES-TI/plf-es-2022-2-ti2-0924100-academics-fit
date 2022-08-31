@@ -80,6 +80,7 @@ O aplicativo em desenvolvimento, surge para solucionar esse deficit gerado pela 
 
 **A academia necessita de entregar profissionais qualificados para seus alunos, pensando nisso é necessário realizar processos de efetivação minuciosos, nos quais serão solicitados formação, experiência, perfil psicológico e cultural; Após essas etapas, o profissional passará por um período de teste prático, onde será analisado o feedback do aluno, se o mesmo corresponder às expectativas, o candidato será efetivado.**
 
+**Assim, após a entrada do aluno, torna-se essencial integrá-lo ao ambiente da academia. Desta forma, permitir que o aluno tenha acesso a uma lista de professores onde possa selecionar o personal trainer com quem mais se identifica acaba se mostrando um processo chave para a vida fitness deste aluno. Busca-se dessa forma corrigir a relação perdida entre o profissional de educação física por consequência da pandemia, pois com ajuda do personal trainer, o aluno realiza os exercícios de forma apropriada, o que prevene lesões, aumenta a qualidade do treino e dos ganhos. Os treinos orientados por um personal trainer serão prescritos de forma individualizada, só para si, respeitando a sua condição física, objetivos e limitações. Desta maneira justifica-se a importância de trazer um personal trainer que traga o maior conforto ao cliente.**
 
 ## 3.3. Modelagem dos Processos
 
