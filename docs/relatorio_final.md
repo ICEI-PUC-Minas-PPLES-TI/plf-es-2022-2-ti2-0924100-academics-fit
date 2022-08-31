@@ -74,7 +74,7 @@ O aplicativo em desenvolvimento, surge para solucionar esse deficit gerado pela 
 
 ## 3.2. Descrição Geral da proposta
 
-**A proposta é criar um aplicativo que possibilite a uma academia gerenciar seus alunos e permitir que eles econtrem personais que supram suas necessidade específicas de treinamento e que também permita a personais buscarem mais alunos e que esses alunos possam se organizar de forma a encaixar nas suas agendas de maneira mais fácil através de um unico sistema. Na busca para encontrar aplicações que já supriam essas adversidades, notamos um aplicativo similar, mas que não possue o mesmo processo, pois o cadastro é realizado pelo Personal Trainner, com nossa metolodogia, ambos terão mais autonomia para utilização da aplicação, além do intermédio da academia.**
+**A proposta é criar um aplicativo que possibilite a uma academia gerenciar seus alunos, permitir que eles econtrem personais que supram suas necessidade específicas de treinamento, que também permita a personais buscarem mais alunos e que esses alunos possam se organizar para se encaixar nas suas agendas de maneira mais fácil, através de um unico sistema. Na busca para encontrar aplicações que já supriam essas adversidades, notamos um aplicativo similar, mas que não possue o mesmo processo, pois o cadastro é realizado pelo Personal Trainner, com nossa metolodogia, ambos terão mais autonomia para utilização da aplicação, além do intermédio da academia.**
 
 Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias.
 
