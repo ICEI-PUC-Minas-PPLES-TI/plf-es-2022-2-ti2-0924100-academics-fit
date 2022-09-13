@@ -100,8 +100,7 @@ O aplicativo em desenvolvimento, surge para solucionar esse deficit gerado pela 
 
 **Este sub-processo apresenta o processo de montagem de ficha do usuário que foi solicitada pelo mesmo.**
 
-![Exemplo de um Modelo BPMN do PROCESSO 2](imagens/![montagem ficha bpmn](https://user-images.githubusercontent.com/74463348/190016311-44649112-0866-46d9-9d74-bbc3eabe4f55.png)
-call_process.png "Modelo BPMN do Processo 2.")
+![Exemplo de um Modelo BPMN do PROCESSO 2](https://user-images.githubusercontent.com/74463348/190016311-44649112-0866-46d9-9d74-bbc3eabe4f55.png)
 
 ## 4. Projeto da Solução
 
