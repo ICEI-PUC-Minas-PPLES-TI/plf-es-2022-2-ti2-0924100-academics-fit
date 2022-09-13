@@ -90,9 +90,15 @@ O aplicativo em desenvolvimento, surge para solucionar esse deficit gerado pela 
 
 ![Exemplo de um Modelo BPMN do PROCESSO 1](imagens/entrada.png "Modelo BPMN do Processo 1.")
 
-### 3.3.2 Processo 2 – NOME DO PROCESSO
+### 3.3.2 Sub-processo – Cadastro do personal e acesso ao sistema
 
-Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN.
+![Modelo BPMN do sub-processo](https://user-images.githubusercontent.com/100444559/189976330-55b7ec4f-f2b1-47fe-bfc5-932f695ed765.png)
+
+**Esse sub-processo mostra o cadastro/login do personal, até seu acesso ao sistema.**
+
+### 3.3.3 Processo 3 – NOME DO PROCESSO
+
+Apresente aqui o nome e as oportunidades de melhorias para o processo 3. Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN.
 
 ![Exemplo de um Modelo BPMN do PROCESSO 2](imagens/call_process.png "Modelo BPMN do Processo 2.")
 
