@@ -102,6 +102,12 @@ O aplicativo em desenvolvimento, surge para solucionar esse deficit gerado pela 
 
 ![Exemplo de um Modelo BPMN do PROCESSO 2](https://user-images.githubusercontent.com/74463348/190016311-44649112-0866-46d9-9d74-bbc3eabe4f55.png)
 
+### 3.3.4 Processo – Personal Trainner Procura Aluno Para Aula
+
+**Este processo está relacionado ao profissional, que terá, como uma das funcionalidades, encontrar um aluno na aplicação para dar aula experimental/permanente.**
+
+![Modelo BPMN Personal Procura Aluno](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-academics-fit/blob/master/docs/imagens/Personal%20encontra%20Aluno%20Diagram.png?raw=true)
+
 ## 4. Projeto da Solução
 
 ### 4.1. Detalhamento das atividades
