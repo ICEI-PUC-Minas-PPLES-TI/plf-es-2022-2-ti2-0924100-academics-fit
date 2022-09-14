@@ -108,6 +108,12 @@ O aplicativo em desenvolvimento, surge para solucionar esse deficit gerado pela 
 
 ![Modelo BPMN Personal Procura Aluno](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-academics-fit/blob/master/docs/imagens/Personal%20encontra%20Aluno%20Diagram.png?raw=true)
 
+### 3.3.5 Modelo BPMN contratação de profissionais
+
+**Processo relacionado a contratação dos profissionais para a academia.**
+
+![Modelo BPMN contratação de profissionais: ](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-academics-fit/blob/master/docs/imagens/processora%20Diagrama.png?raw=true)
+
 ## 4. Projeto da Solução
 
 ### 4.1. Detalhamento das atividades
