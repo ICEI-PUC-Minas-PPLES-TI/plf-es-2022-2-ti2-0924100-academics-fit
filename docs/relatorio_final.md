@@ -94,7 +94,8 @@ O aplicativo em desenvolvimento, surge para solucionar esse deficit gerado pela 
 
 **Esse sub-processo mostra o passo a passo do cadastro/login do personal, até seu acesso ao sistema.**
 
-![Modelo BPMN Cadastro do Personal no Sistema](https://user-images.githubusercontent.com/100444559/190221055-d26cb695-6d6e-4b7a-b4c6-9c060d4e00f3.png)
+![Modelo BPMN Cadastro do Personal no Sistema](https://user-images.githubusercontent.com/100444559/190222850-cbcbd598-c22f-4afb-be18-c30a386f9b05.png)
+
 
 
 ### 3.3.3 Sub-processo – Montagem de ficha
