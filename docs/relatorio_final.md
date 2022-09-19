@@ -84,7 +84,7 @@ O aplicativo em desenvolvimento, surge para solucionar esse deficit gerado pela 
 
 ## 3.3. Modelagem dos Processos
 
-### 3.3.1 Processo – Entrada na academia
+### 3.3.1 Processo – Matricula academia
 
 **Esse processo mostra as atividades realizadas pelo usuário a partir do momento que ele entra na academia, até a sua matricula e acesso ao sistema interno e possibilidade de marcar aulas com personais.**
 
