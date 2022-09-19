@@ -84,11 +84,11 @@ O aplicativo em desenvolvimento, surge para solucionar esse deficit gerado pela 
 
 ## 3.3. Modelagem dos Processos
 
-### 3.3.1 Processo 1 – Entrada na academia
+### 3.3.1 Processo – Entrada na academia
 
 **Esse processo mostra as atividades realizadas pelo usuário a partir do momento que ele entra na academia, até a sua matricula e acesso ao sistema interno e possibilidade de marcar aulas com personais.**
 
-![Exemplo de um Modelo BPMN do PROCESSO 1](imagens/entrada.png "Modelo BPMN do Processo 1.")
+![Exemplo de um Modelo BPMN do PROCESSO 1](imagens/entrada(1).png "Modelo BPMN do Processo 1.")
 
 ### 3.3.2 Sub-processo – Cadastro do personal e acesso ao sistema
 
