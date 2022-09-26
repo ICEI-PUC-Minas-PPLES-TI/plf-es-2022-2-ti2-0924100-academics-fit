@@ -102,7 +102,8 @@ O aplicativo em desenvolvimento, surge para solucionar esse deficit gerado pela 
 
 **Este sub-processo apresenta o processo de montagem de ficha do usuário que foi solicitada pelo mesmo.**
 
-![Exemplo de um Modelo BPMN do PROCESSO 2](https://user-images.githubusercontent.com/74463348/190016311-44649112-0866-46d9-9d74-bbc3eabe4f55.png)
+![Exemplo de um Modelo BPMN do PROCESSO 2](![montagem ficha Diagram (1)](https://user-images.githubusercontent.com/74463348/192395617-08e535fc-747d-41a0-bf7e-3044a56f4654.png)
+)
 
 ### 3.3.4 Processo – Personal Trainner Procura Aluno Para Aula
 
