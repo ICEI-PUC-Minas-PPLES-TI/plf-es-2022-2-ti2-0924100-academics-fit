@@ -128,23 +128,33 @@ O aplicativo em desenvolvimento, surge para solucionar esse deficit gerado pela 
 
 Descrever aqui cada uma das propriedades das atividades de cada um dos processos. Devem estar relacionadas com o modelo de processo apresentado anteriormente.
 
-#### Processo 1 – NOME DO PROCESSO
+#### Processo 1 – Matrícula academia
 
-**Nome da atividade 1**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
-| ***Exemplo:***  |    |     |
-| login | Caixa de Texto | formato de e-mail |  |
-| senha | Caixa de Texto | mínimo de 8 caracteres |   |
-
-**Nome da atividade 2**
+**Cadastro dados**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
 | [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
-|    |    |     |
+| Nome | Caixa de Texto |  |  |
+| Gênero | caixa de texto | | |
+| Idade | número |  |  |
+| CPF | número | devem possuir 11 algarismos |  |
+| Naturalidade | campo de texto |  |  |
+| endereço | rich text |  |  |
+|forma de pagamento | campo de texto |  |  |
+
+**Apresentar laudo**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Laudo | anexo | o laudo deve ser válido |  |
+
+**definição matrícula**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| matricula | múltipla escolha |  |  |
+
 
 #### Processo 2 – NOME DO PROCESSO
 
