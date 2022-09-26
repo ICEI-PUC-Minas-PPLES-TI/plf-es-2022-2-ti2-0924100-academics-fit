@@ -156,21 +156,21 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | matricula | múltipla escolha |  |  |
 
 
-#### Processo 2 – NOME DO PROCESSO
+#### Processo 2 – Montagem de ficha
 
-**Nome da atividade 1**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
-|    |    |     |
-
-**Nome da atividade 2**
+**Marcar objetivos**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
-|    |    |     |
+| Objetivos(s) | Múltipla escolha | Algum campo deve ser marcado | Nada selecionado |
+|  Outros  |  Caixa de texto  |  Se a pessoa não marcou nada, deverá digitar algo  | Campo vazio |
+
+**Marcar disponibilidade**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Disponibilidade | Seleção única | O usuário está restrito a selecionar uma opção | Nada selecionado |
+|  Especificar disponibilidade  |  Múltipla escolha  |  Se o usuário deverá marcar os dias das semanas de sua disponibilidade refente a disponibilidade marcada | Nada selecionado
 
 ### 4.2. Tecnologias
 
