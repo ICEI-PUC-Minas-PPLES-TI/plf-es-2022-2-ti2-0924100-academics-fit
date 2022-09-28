@@ -157,7 +157,7 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | matricula | múltipla escolha |  |  |
 
 
-#### Processo 3 – Montagem de ficha
+#### Processo 2 – Montagem de ficha
 
 **Marcar objetivos**
 
@@ -172,6 +172,27 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | --- | --- | --- | --- |
 | Disponibilidade | Seleção única | O usuário está restrito a selecionar uma opção | Nada selecionado |
 |  Especificar disponibilidade  |  Múltipla escolha  |  Se o usuário deverá marcar os dias das semanas de sua disponibilidade referente a disponibilidade marcada | Nada selecionado
+
+#### Processo 5  – Matrícula academia
+
+**Cadastro dados**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
+| Gênero | caixa de texto | | |
+| Formação | caixa de texto | | |
+| Experiência | caixa de texto | | |
+| Idade | número |  |  |
+| endereço | rich text |  |  |
+
+
+**Apresentar Currículo**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+|  Currículo | anexo | o currículo deve ser válido |  |
+
 
 ### 4.2. Tecnologias
 
