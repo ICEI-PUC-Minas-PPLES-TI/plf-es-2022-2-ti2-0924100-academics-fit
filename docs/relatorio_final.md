@@ -139,8 +139,8 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | Idade | número |  |  |
 | CPF | número | devem possuir 11 algarismos |  |
 | Naturalidade | campo de texto |  |  |
-| endereço | rich text |  |  |
-|forma de pagamento | campo de texto |  |  |
+| Endereço | rich text |  |  |
+| Forma de pagamento | campo de texto |  |  |
 
 **Apresentar laudo**
 
@@ -154,8 +154,34 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | --- | --- | --- | --- |
 | matricula | múltipla escolha |  |  |
 
+#### Processo 2 - Processo de cadastro/login e acesso ao sistema
 
-#### Processo 2 – Montagem de ficha
+**Cadastro de dados do aluno(redirecionando para o cadastro dados do processo 1)**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
+| Nome | Caixa de Texto |  |  |
+| Gênero | caixa de texto | | |
+| Idade | número |  |  |
+| CPF | número | devem possuir 11 algarismos |  |
+| Naturalidade | campo de texto |  |  |
+| endereço | rich text |  |  |
+| Forma de pagamento | campo de texto |  |  |
+
+**Cadastro de dados do personal**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
+| Nome completo | Caixa de Texto |  |  |
+| Idade | número |  |  |
+| Gênero | caixa de texto | | |
+| Endereço | rich text |  |  |
+| CPF | número | devem possuir 11 algarismos |  |
+
+
+#### Processo 3 – Montagem de ficha
 
 **Marcar objetivos**
 
