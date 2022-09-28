@@ -193,8 +193,7 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Disponibilidade | Seleção única | O usuário está restrito a selecionar uma opção | Nada selecionado |
-|  Especificar disponibilidade  |  Múltipla escolha  |  Se o usuário deverá marcar os dias das semanas de sua disponibilidade referente a disponibilidade marcada | Nada selecionado
+|  Especificar disponibilidade  |  Múltipla escolha  |  Se o usuário deverá especificar a frequência de disponibilidade e os dias da semana | Nada selecionado
 
 #### Processo 4 – Exame Físico 
 
@@ -235,7 +234,7 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | Pressão Arterial Durante Esforço | Float |  |  |
 | Esforço Muscular de membros inferiores | Float |  |  |
 
-#### Processo 5  – contratação de profissionais.
+#### Processo 5  – contratação de profissionais
 
 **Cadastro de dados dos profissionais**
 
