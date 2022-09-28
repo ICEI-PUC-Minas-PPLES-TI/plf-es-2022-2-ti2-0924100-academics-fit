@@ -196,6 +196,45 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | Disponibilidade | Seleção única | O usuário está restrito a selecionar uma opção | Nada selecionado |
 |  Especificar disponibilidade  |  Múltipla escolha  |  Se o usuário deverá marcar os dias das semanas de sua disponibilidade referente a disponibilidade marcada | Nada selecionado
 
+#### Processo 4 – Exame Físico 
+
+**Anamnese**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Hábitos Gerais | Caixa de Texto | Sem Restrições |  |
+| Histórico Familiar | caixa de texto | Sem Restrições | |
+| Cirurgías e Lesões | Caixa de texto |  |  |
+
+**Avaliação Antrométrica e Medição Temporal**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Peso | Float |  |  |
+| Altura | Float |  |  |
+| Massa Muscular | Float |  |  |
+| Percentual de Gordura | Float |  |  |
+
+**Calculo IMC**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| IMC | Float |  |  |
+
+**Avaliação Postural e Neuromuscular**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Desvio de Coluna | Checkbox |  |  |
+
+**Avaliação Cardiorrespiratório**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Determina Frequência Cardíaca | Float |  |  |
+| Pressão Arterial Durante Esforço | Float |  |  |
+| Esforço Muscular de membros inferiores | Float |  |  |
+
 #### Processo 5  – contratação de profissionais
 
 **Cadastro de dados dos profissionais**
