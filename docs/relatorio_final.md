@@ -171,7 +171,7 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
 | Disponibilidade | Seleção única | O usuário está restrito a selecionar uma opção | Nada selecionado |
-|  Especificar disponibilidade  |  Múltipla escolha  |  Se o usuário deverá marcar os dias das semanas de sua disponibilidade refente a disponibilidade marcada | Nada selecionado
+|  Especificar disponibilidade  |  Múltipla escolha  |  Se o usuário deverá marcar os dias das semanas de sua disponibilidade referente a disponibilidade marcada | Nada selecionado
 
 ### 4.2. Tecnologias
 
