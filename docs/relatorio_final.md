@@ -107,7 +107,7 @@ O aplicativo em desenvolvimento, surge para solucionar esse deficit gerado pela 
 
 **Este processo descreve as etapas de avaliação física do usuário executadas pelo avaliador.**
 
-![Modelo BPMN Exame Físico](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-academics-fit/blob/master/docs/imagens/Exame%20F%C3%ADsico%20Diagram%20(3).png?raw=true)
+![Modelo BPMN Exame Físico pelo Avaliador](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-academics-fit/blob/master/docs/imagens/Exame%20F%C3%ADsico%20Diagram%20(3).png?raw=true)
 
 ### 3.3.5 Modelo BPMN contratação de profissionais.
 
