@@ -196,7 +196,7 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | Disponibilidade | Seleção única | O usuário está restrito a selecionar uma opção | Nada selecionado |
 |  Especificar disponibilidade  |  Múltipla escolha  |  Se o usuário deverá marcar os dias das semanas de sua disponibilidade referente a disponibilidade marcada | Nada selecionado
 
-#### Processo 5  – Matrícula academia
+#### Processo 5  – contratação de profissionais
 
 **Cadastro de dados dos profissionais**
 
