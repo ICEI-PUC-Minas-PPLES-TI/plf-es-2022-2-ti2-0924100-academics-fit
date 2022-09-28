@@ -175,7 +175,7 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 #### Processo 5  – Matrícula academia
 
-**Cadastro dados**
+**Cadastro de dados dos profissionais**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
@@ -191,7 +191,7 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-|  Currículo | anexo | o currículo deve ser válido |  |
+|  Currículo | anexo | premissa do currículo |  |
 
 
 ### 4.2. Tecnologias
