@@ -88,15 +88,13 @@ O aplicativo em desenvolvimento, surge para solucionar esse deficit gerado pela 
 
 **Esse processo mostra as atividades realizadas pelo usuário a partir do momento que ele entra na academia, até a sua matricula e acesso ao sistema interno e possibilidade de marcar aulas com personais.**
 
-![Modelo BPMN da matricula academia](imagens/entrada(1).png "Modelo BPMN do Processo 1.")
+![Exemplo de um Modelo BPMN do PROCESSO 1](imagens/entrada(1).png "Modelo BPMN do Processo 1.")
 
-### 3.3.2 Sub-processo – Cadastro do personal e acesso ao sistema
+### 3.3.2 Sub-processo – Processo de cadastro/login e acesso ao sistema
 
-**Esse sub-processo mostra o passo a passo do cadastro/login do personal, até seu acesso ao sistema.**
+**Este sub-processo mostra o passo-a-passo para o cadastro/login do personal/aluno, até seu acesso ao sistema.**
 
-![Modelo BPMN Cadastro do Personal no Sistema](https://user-images.githubusercontent.com/100444559/190222850-cbcbd598-c22f-4afb-be18-c30a386f9b05.png)
-
-
+![Modelo BPMN Cadastro/login e acesso ao sistema](https://user-images.githubusercontent.com/100444559/192823645-59566fd6-68df-493f-b8bb-5b616efa8dd8.png)
 
 ### 3.3.3 Sub-processo – Montagem de ficha
 
@@ -135,6 +133,7 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
+| [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
 | Nome | Caixa de Texto |  |  |
 | Gênero | caixa de texto | | |
 | Idade | número |  |  |
