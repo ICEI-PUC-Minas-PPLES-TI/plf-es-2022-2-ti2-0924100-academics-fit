@@ -217,6 +217,22 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 |  Currículo | anexo | premissa do currículo |  |
 
 
+#### Processo 6  – Matrícula final no app
+
+**Cadastro final dos clientes**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Nome | Caixa de Texto |  |  |
+| Localização | Permissão de acesso |  | Endereço dado |
+| Gênero | Seleção | | M |
+| Data de nascimento | Seleção | Restrição definida pelo input | Data atual |
+| CPF | número | 11 números validados pelo cálculo do cpf |  |
+| Carteira de vacinação | Anexo | Somente tipos de imagem ou documento |  |
+| Login | Caixa de Texto |  |  |
+| Senha | Caixa de texto enriquecido | Ao menos 10 caracteres, formados por ao menos uma letra, um número e um caractere especial |  |
+
+
 ### 4.2. Tecnologias
 
 Descreva qual(is) tecnologias você vai usar para resolver o seu problema, ou seja implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas. Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
