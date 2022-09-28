@@ -235,7 +235,7 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | Pressão Arterial Durante Esforço | Float |  |  |
 | Esforço Muscular de membros inferiores | Float |  |  |
 
-#### Processo 5  – contratação de profissionais
+#### Processo 5  – contratação de profissionais.
 
 **Cadastro de dados dos profissionais**
 
