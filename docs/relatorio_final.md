@@ -103,11 +103,11 @@ O aplicativo em desenvolvimento, surge para solucionar esse deficit gerado pela 
 ![Exemplo de um Modelo BPMN do PROCESSO 2](![montagem ficha Diagram (1)](https://user-images.githubusercontent.com/74463348/192395617-08e535fc-747d-41a0-bf7e-3044a56f4654.png)
 
 
-### 3.3.4 Processo – Personal Trainner Procura Aluno Para Aula
+### 3.3.4 Processo – Exame Físico pelo Avaliador.
 
-**Este processo está relacionado ao profissional, que terá, como uma das funcionalidades, encontrar um aluno na aplicação para dar aula experimental/permanente.**
+**Este processo descreve as etapas de avaliação física do usuário executadas pelo avaliador.**
 
-![Modelo BPMN Personal Procura Aluno](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-academics-fit/blob/master/docs/imagens/Personal%20encontra%20Aluno%20Diagram.png?raw=true)
+![Modelo BPMN Exame Físico](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-academics-fit/blob/master/docs/imagens/Exame%20F%C3%ADsico%20Diagram%20(3).png?raw=true)
 
 ### 3.3.5 Modelo BPMN contratação de profissionais.
 
