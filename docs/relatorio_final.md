@@ -133,13 +133,16 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Nome | Caixa de Texto |  |  |
-| Gênero | caixa de texto | | |
-| Idade | número |  |  |
+| Nome | Caixa de Texto | deve possuir apenas letras  |  |
+| Gênero | caixa de seleção | | |
+| Data de nascimento | data |  |  |
 | CPF | número | devem possuir 11 algarismos |  |
 | Naturalidade | campo de texto |  |  |
-| Endereço | rich text |  |  |
-| Forma de pagamento | campo de texto |  |  |
+| CEP | número | deve possuir apenas números e possuir 8 algarismos |  |
+| Rua | Campo de texto |  |  |
+| Número da rua | número |  |  |
+| Complemento | Campo de texto |  |  |
+| Forma de pagamento | caixa de seleção |  |  |
 
 **Apresentar laudo**
 
@@ -151,7 +154,7 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| matricula | múltipla escolha |  |  |
+| matricula | Caixa de seleção |  |  |
 
 #### Processo 2 - Processo de cadastro/login e acesso ao sistema
 
