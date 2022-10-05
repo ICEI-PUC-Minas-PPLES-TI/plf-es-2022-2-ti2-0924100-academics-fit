@@ -100,7 +100,7 @@ O aplicativo em desenvolvimento, surge para solucionar esse deficit gerado pela 
 
 **Este sub-processo apresenta o processo de montagem de ficha do usuário que foi solicitada pelo mesmo.**
 
-![Exemplo de um Modelo BPMN do PROCESSO 2](![montagem ficha Diagram (1)](imagens/montagem%20ficha%20Diagram.png)
+![Exemplo de um Modelo BPMN do PROCESSO 2](imagens/montagem%20ficha%20Diagram.png)
 
 
 ### 3.3.4 Processo – Exame Físico pelo Avaliador.
