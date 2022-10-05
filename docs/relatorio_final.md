@@ -191,7 +191,7 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
 | Objetivos(s) | Múltipla escolha | Algum campo deve ser marcado | Nada selecionado |
-|  Outros  |  Caixa de texto  |  Se a pessoa não marcou nada, deverá digitar algo  | Campo vazio |
+|  Outros  |  Caixa de texto  |  Se a pessoa não marcou nada, deve digitar algo  | Campo vazio |
 
 **Marcar disponibilidade**
 
