@@ -246,11 +246,16 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
 | [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
-| Gênero | caixa de texto | | |
+| Gênero | caixa de seleção | | |
 | Formação | caixa de texto | | |
 | Experiência | caixa de texto | | |
-| Idade | número |  |  |
-| endereço | rich text |  |  |
+| Idade | campo numérico|  |  |
+| cep| campo numérico | apenas 8 números  |  |
+|rua| caixa de texto|  |  |
+|número da casa| texto|  |  |
+|complemento| texto|  |  |
+
+
 
 
 **Apresentar Currículo**
@@ -258,6 +263,7 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
 |  Currículo | anexo | premissa do currículo |  |
+
 
 
 #### Processo 6  – Matrícula final no app
