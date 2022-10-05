@@ -213,16 +213,16 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Peso | Float |  |  |
-| Altura | Float |  |  |
-| Massa Muscular | Float |  |  |
-| Percentual de Gordura | Float |  |  |
+| Peso | Caixa Numérica |  |  |
+| Altura | Caixa Numérica |  |  |
+| Massa Muscular | Caixa Numérica |  |  |
+| Percentual de Gordura | Caixa Numérica |  |  |
 
 **Calculo IMC**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| IMC | Float |  |  |
+| IMC | Caixa Numérica |  |  |
 
 **Avaliação Postural e Neuromuscular**
 
@@ -234,9 +234,10 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Determina Frequência Cardíaca | Float |  |  |
-| Pressão Arterial Durante Esforço | Float |  |  |
-| Esforço Muscular de membros inferiores | Float |  |  |
+| Pressão Arterial Sistólica | Caixa Numérica |  |  |
+| Pressão Arterial Diastólica | Caixa Numérica |  |  |
+| Pressão Arterial Durante Esforço | Caixa Numérica |  |  |
+| Esforço Muscular de membros inferiores | Caixa Numérica |  |  |
 
 #### Processo 5  – contratação de profissionais
 
