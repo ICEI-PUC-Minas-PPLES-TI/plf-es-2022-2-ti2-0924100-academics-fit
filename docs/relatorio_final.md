@@ -159,30 +159,32 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 #### Processo 2 - Processo de cadastro/login e acesso ao sistema
 
-**Cadastro de dados do aluno(redirecionando para o cadastro dados do processo 1)**
+**Cadastro de dados do aluno (redirecionando para o cadastro dados do processo 1)**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
-| Nome | Caixa de Texto |  |  |
-| Gênero | caixa de texto | | |
-| Idade | número |  |  |
+| Nome | caixa de Texto | deve possuir apenas letras e tamanho máximo de 25 caracteres  |  |
+| Gênero | caixa de seleção | | |
+| Data de nascimento | data |  |  |
 | CPF | número | devem possuir 11 algarismos |  |
-| Naturalidade | campo de texto |  |  |
-| endereço | rich text |  |  |
-| Forma de pagamento | campo de texto |  |  |
+| CEP | número | deve possuir apenas números e possuir 8 algarismos |  |
+| Rua | campo de texto |  |  |
+| Número da rua | número |  |  |
+| Complemento | campo de texto |  |  |
+| Forma de pagamento | caixa de seleção |  |  |
 
 **Cadastro de dados do personal**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
-| Nome completo | Caixa de Texto |  |  |
-| Idade | número |  |  |
-| Gênero | caixa de texto | | |
-| Endereço | rich text |  |  |
+| Nome | Caixa de Texto | deve possuir apenas letras e tamanho máximo de 25 caracteres |  |
+| Gênero | caixa de seleção | | |
+| Data de nascimento | data |  |  |
 | CPF | número | devem possuir 11 algarismos |  |
-
+| CEP | número | deve possuir apenas números e possuir 8 algarismos |  |
+| Rua | campo de texto |  |  |
+| Número da rua | número |  |  |
+| Complemento | campo de texto |  |  |
 
 #### Processo 3 – Montagem de ficha
 
