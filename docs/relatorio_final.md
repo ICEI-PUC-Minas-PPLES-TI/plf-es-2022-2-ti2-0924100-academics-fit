@@ -168,9 +168,6 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | Data de nascimento | data |  |  |
 | CPF | número | devem possuir 11 algarismos |  |
 | CEP | número | deve possuir apenas números e possuir 8 algarismos |  |
-| Rua | campo de texto |  |  |
-| Número da rua | número |  |  |
-| Complemento | campo de texto |  |  |
 | Forma de pagamento | caixa de seleção |  |  |
 
 **Cadastro de dados do personal**
@@ -182,9 +179,6 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | Data de nascimento | data |  |  |
 | CPF | número | devem possuir 11 algarismos |  |
 | CEP | número | deve possuir apenas números e possuir 8 algarismos |  |
-| Rua | campo de texto |  |  |
-| Número da rua | número |  |  |
-| Complemento | campo de texto |  |  |
 
 #### Processo 3 – Montagem de ficha
 
