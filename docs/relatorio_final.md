@@ -280,6 +280,8 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 ### 4.2. Tecnologias
 
+**Serão utilizadas Node, JavaScript, MySql, bootstrap, Visual Studio Code, GitHub para o desenvolvimento do projeto. O usúario vai interagir diretamente com o front end e a interface gráfica do site, para ter acesso aos recursos oferecidos por ele e de forma indereta acessar as informações presentes no banco de dados.**
+
 Descreva qual(is) tecnologias você vai usar para resolver o seu problema, ou seja implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas. Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
 
 ## 5. Modelo de dados
