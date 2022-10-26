@@ -288,7 +288,7 @@ Descreva qual(is) tecnologias você vai usar para resolver o seu problema, ou se
 
 Apresente o modelo de dados por meio de um modelo relacional ou Diagrama de Entidade-Relacionamento (DER) que contemple todos conceitos e atributos apresentados item anterior. 
 
-![Diagrama de Entidade Relacionamento de Exemplo]([imagens/er_diagram.png](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-academics-fit/blob/master/docs/imagens/bd.png) "Diagrama de Entidade Relacionamento")
+![Diagrama de Entidade Relacionamento de Exemplo](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-academics-fit/blob/master/docs/imagens/bd.png) 
 
 ## 6. Indicadores de desempenho
 
