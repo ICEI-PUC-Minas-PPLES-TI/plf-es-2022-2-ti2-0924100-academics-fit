@@ -6,7 +6,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>login</title>
+    <title>login
+    </title>
     <meta name="description" content="academics-fit">
     <meta name="author" content="academics-fit">
     <meta name="keywords" content="palavras-chave">
@@ -16,47 +17,69 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 
-<body class="bg-dark" style="font-family: Helvetica;">
-    <section class="container" style="margin-top: 2rem;">
-        <div class="row" style="height: 90vh;">
-            <div class="col grey-bg" style="border-radius: 10000px;display: table; overflow: hidden; max-width: 43vw;">
-                <h1 style="display: table-cell; vertical-align: middle;text-align: center;">IMAGEM ILUSTRATIVA</h1>
+<body class="bg-dark container m-auto justify-content-center" style="font-family: Helvetica;">
+    <section class="container " style="margin-top: 2rem;">
+        <div class="row justify-content-center" style="height: 90vh;">
+            <div class="col grey-bg" id="loginandlogo">
+
+                <h1 style="display: table-cell; vertical-align: middle;text-align: center;">IMAGEM ILUSTRATIVA
+                </h1>
+
             </div>
-            <div class="col pink-bg" style="max-width: 25vw;margin-left: 5rem;">
-                <div class="row">
-                    <img src="imgs/teste.jpeg" alt="" style="object-fit: fill;">
-                </div>
-                <h5 class="row text-center justify-content-center">
-                    Entrar como cliente
-                </h5>
-                <div class="row">
-                    <input class="btn inputlogin grey-bg" type="text" placeholder="Nome usuário" name="Entrar"
-                        text="Entrar" id="Entrar">
-                </div>
-                <div class="row">
-                    <input class="btn inputlogin grey-bg" type="text" placeholder="Senha usuário" name="Senha"
-                        text="Senha" id="Senha">
-                </div>
-                <div class="row mt-4">
-                    <div class="col text-center">
-                        <button type="button" class="btn btn-light text-center grey-bg" style="border-color: #D9D9D9;">Recuperar</button>
+            <div class="col blue-bg" id="colunalogin">
+                <div class="row justify-content-center" style="margin: 2rem auto 1rem auto;">
+                    <div class="container" id="positioning">
+
+                        <div class="container" style="
+                            width: 250px;
+                            height: 250px ;
+                            left: -10px;
+                            position: absolute;
+                            border-radius: 50%;
+                            z-index: 2;
+                            background-image: url(imgs/logo.png);">
+                        </div>
+
+                        <div class="container" id="smallcircle">
+                        </div>
+
                     </div>
-                    <div class="col text-center">
-                        <button type="button" class="btn btn-light text-center grey-bg" style="border-color: #D9D9D9;">Entrar</button>
+
+                    <span class="row text-center justify-content-center textotitulo">
+                        Entrar como cliente
+                    </span>
+
+                    <div class="row">
+                        <input class="btn inputlogin grey-bg" type="text" placeholder="Nome usuário" name="Entrar"
+                            text="Entrar" id="Entrar">
+                    </div>
+
+                    <div class="row">
+                        <input class="btn inputlogin grey-bg" type="text" placeholder="Senha usuário" name="Senha"
+                            text="Senha" id="Senha">
+                    </div>
+
+                    <div class="row mt-4">
+                        
+                        <div class="col text-center">
+                            <button type="button" class="btn btn-light text-center grey-bg txt-size-btn">
+                                <a style="text-decoration: none;color: inherit;" href="recuperar.html">Recuperar
+                                </a>
+                            </button>
+                        </div>
+
+                        <div class="col text-center">
+                            <button type="button" class="btn btn-light text-center grey-bg txt-size-btn">Entrar
+                            </button>
+                        </div>
+
                     </div>
                 </div>
             </div>
-        </div>
     </section>
-
-
-
-
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-        crossorigin="anonymous"></script>
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+        </script>
 </body>
 
 </html>

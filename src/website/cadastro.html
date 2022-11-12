@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cadastro
+    </title>
+    <meta name="description" content="academics-fit">
+    <meta name="author" content="academics-fit">
+    <meta name="keywords" content="palavras-chave">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- CSS local -->
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body class="bg-dark container m-auto justify-content-center" style="font-family: Helvetica;">
+    <section class="container " style="margin-top: 2rem;">
+        <div class="row justify-content-center" style="height: 90vh;">
+            <div class="col grey-bg" id="loginandlogo">
+
+                <h1 style="display: table-cell; vertical-align: middle;text-align: center;">IMAGEM ILUSTRATIVA
+                </h1>
+
+            </div>
+            <div class="col blue-bg" id="colunalogin">
+                <div class="row justify-content-center" style="margin: 2rem auto 1rem auto;">
+
+                    <span class="row text-center justify-content-center textotitulo">
+                        Cadastro
+                    </span>
+
+                    <div class="row">
+                        <form action="index.html" method="get">
+
+                            <fieldset class="text-center">
+
+                                <input class="btn inputlogin grey-bg" type="text" placeholder="Nome usuário"
+                                    name="Entrar" text="Entrar" id="nome" required>
+
+                                <input class="btn inputlogin grey-bg" type="text" placeholder="Digite seu CPF"
+                                    name="CPF" text="CPF" id="CPF" required>
+
+                                <input class="btn inputlogin grey-bg" type="email" placeholder="Digite seu E-mail"
+                                    name="Email" text="Email" id="Email" required>
+
+                                <input class="btn inputlogin2 grey-bg" type="password" placeholder="Digite nova Senha"
+                                    id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                                    title="Deve haver ao menos um numero, uma letra maiuscula e minuscula e ao menos 8 caracteres"
+                                    required>
+
+                                <input class="btn inputlogin2 grey-bg" type="password" placeholder="Confirme Senha"
+                                    id="confirm_password" required>
+
+                                <!-- radio para aluno ou professor -->
+                                <div class="row justify-content-center">
+                                    <div class="col">
+
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check input m-auto" type="radio"
+                                                name="inlineRadioOptions" id="aluno" value="aluno">
+                                            <label class="form-check p-0 label" for="aluno">Aluno</label>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check input m-auto" type="radio"
+                                                name="inlineRadioOptions" id="professor" value="professor">
+                                            <label class="form-check p-0 label" for="professor">Professor</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <p></p>
+
+                                <button onclick="ls3()" type="submit" class="btn btn-success">Confirm</button>
+
+                            </fieldset>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+        </script>
+    <script>
+
+        function validaCPF(cpf) {
+            cpf = cpf.replace(/[^\d]+/g, '');
+            if (cpf == '') return false;
+            if (cpf.length != 11 ||
+                cpf == "00000000000" ||
+                cpf == "11111111111" ||
+                cpf == "22222222222" ||
+                cpf == "33333333333" ||
+                cpf == "44444444444" ||
+                cpf == "55555555555" ||
+                cpf == "66666666666" ||
+                cpf == "77777777777" ||
+                cpf == "88888888888" ||
+                cpf == "99999999999")
+                return false;
+            add = 0;
+            for (i = 0; i < 9; i++)
+                add += parseInt(cpf.charAt(i)) * (10 - i);
+            rev = 11 - (add % 11);
+            if (rev == 10 || rev == 11)
+                rev = 0;
+            if (rev != parseInt(cpf.charAt(9)))
+                return false;
+            add = 0;
+            for (i = 0; i < 10; i++)
+                add += parseInt(cpf.charAt(i)) * (11 - i);
+            rev = 11 - (add % 11);
+            if (rev == 10 || rev == 11)
+                rev = 0;
+            if (rev != parseInt(cpf.charAt(10)))
+                return false;
+            return true;
+        }
+
+        function ls3() {
+            var cpf = document.getElementById("CPF").value,
+                nome = document.getElementById("nome").value,
+                email = document.getElementById("Email").value,
+                senha = document.getElementById("password").value,
+                confirm_password = document.getElementById("confirm_password").value,
+                aluno = document.getElementById("aluno").checked,
+                professor = document.getElementById("professor").checked;
+
+            if (validaCPF(cpf) == false)
+                document.getElementById("CPF").setCustomValidity("CPF inválido");
+            else
+                document.getElementById("CPF").setCustomValidity("");
+            if (senha != confirm_password)
+                document.getElementById("confirm_password").setCustomValidity("Senhas diferentes");
+            else
+                document.getElementById("confirm_password").setCustomValidity("");
+            localStorage.setItem("nome", nome);
+            localStorage.setItem("cpf", cpf);
+            localStorage.setItem("email", email);
+            localStorage.setItem("senha", senha);
+            localStorage.setItem("aluno", aluno);
+            localStorage.setItem("professor", professor);
+        }
+
+
+    </script>
+    <script src="scripts/index.js"></script>
+</body>
+
+</html>
