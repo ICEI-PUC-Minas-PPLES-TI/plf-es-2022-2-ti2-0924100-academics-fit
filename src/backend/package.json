@@ -1,0 +1,24 @@
+{
+  "name": "academics-fit",
+  "version": "1.0.0",
+  "description": "Trabalho Interdisciplinar ICEI PUC Minas",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "sequelize": "^6.25.5",
+    "sequelize-cli": "^6.5.2",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4"
+  }
+}
