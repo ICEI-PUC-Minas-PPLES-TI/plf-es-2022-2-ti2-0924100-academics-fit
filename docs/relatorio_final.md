@@ -137,17 +137,8 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | Gênero | caixa de seleção | | |
 | Data de nascimento | data |  |  |
 | CPF | número | devem possuir 11 algarismos |  |
-| CEP | número | deve possuir apenas números e possuir 8 algarismos |  |
-| Rua | campo de texto |  |  |
-| Número da rua | número |  |  |
-| Complemento | campo de texto |  |  |
 | Forma de pagamento | caixa de seleção |  |  |
 
-**Apresentar laudo**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| Laudo | anexo | o laudo deve ser válido |  |
 
 **definição matrícula**
 
@@ -167,7 +158,6 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | Gênero | caixa de seleção | | |
 | Data de nascimento | data |  |  |
 | CPF | número | devem possuir 11 algarismos |  |
-| CEP | número | deve possuir apenas números e possuir 8 algarismos |  |
 | Forma de pagamento | caixa de seleção |  |  |
 
 **Cadastro de dados do personal**
@@ -178,7 +168,6 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | Gênero | caixa de seleção | | |
 | Data de nascimento | data |  |  |
 | CPF | número | devem possuir 11 algarismos |  |
-| CEP | número | deve possuir apenas números e possuir 8 algarismos |  |
 
 #### Processo 3 – Montagem de ficha
 
@@ -288,7 +277,7 @@ Descreva qual(is) tecnologias você vai usar para resolver o seu problema, ou se
 
 Apresente o modelo de dados por meio de um modelo relacional ou Diagrama de Entidade-Relacionamento (DER) que contemple todos conceitos e atributos apresentados item anterior. 
 
-![Diagrama de Entidade Relacionamento de Exemplo](imagens/diagrama_relacional.png) 
+![Diagrama de Entidade Relacionamento de Exemplo](imagens/diagrama_relacional.jpeg) 
 
 ## 6. Indicadores de desempenho
 
