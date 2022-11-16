@@ -28,6 +28,11 @@ module.exports = {
       personaisCpf: {
         allowNull: false,
         type: Sequelize.STRING
+      },
+      
+      expiracaoFicha: {
+        allowNull: false,
+        type: Sequelize.STRING
       }
     });
   },
