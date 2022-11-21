@@ -19,7 +19,7 @@ module.exports = (sequelize, DataTypes) => {
     
           link: {
             allowNull: false,
-            type: DataTypes.INTEGER
+            type: DataTypes.STRING
           },
     
           grupoMuscular: {
