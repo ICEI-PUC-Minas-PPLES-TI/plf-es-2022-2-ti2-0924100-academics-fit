@@ -2,21 +2,16 @@
 
 module.exports = {
   up: (queryInterface, Sequelize) => {
-    return queryInterface.createTable("Cadastrados", {
+    return queryInterface.createTable("Usuario", {
       uid: {
         type: Sequelize.UUID,
         defaultValue: Sequelize.UUIDV4,
         allowNull: false
       },
 
-      cpf: {
-        allowNull: false,
-        primaryKey: true,
-        type: Sequelize.STRING
-      },
-
       email: {
         allowNull: false,
+        primaryKey: true,
         type: Sequelize.STRING
       },
 
@@ -33,7 +28,6 @@ module.exports = {
   },
 
   down: (queryInterface, Sequelize) => {
-    return queryInterface.dropTable("Cadastrados");
+    return queryInterface.dropTable("Usuario");
   },
 };  
-
