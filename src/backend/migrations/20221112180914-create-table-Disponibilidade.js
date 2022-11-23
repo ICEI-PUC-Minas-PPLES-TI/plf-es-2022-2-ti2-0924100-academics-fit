@@ -11,26 +11,10 @@ module.exports = {
 
       cpf: {
         allowNull: false,
-        primaryKey: true,
         type: Sequelize.STRING
       },
 
       diaSemana: {
-        allowNull: false,
-        type: Sequelize.STRING
-      },
-
-      horario: {
-        allowNull: false,
-        type: Sequelize.DATE
-      },
-
-      personaisCpf: {
-        allowNull: false,
-        type: Sequelize.STRING
-      },
-      
-      expiracaoFicha: {
         allowNull: false,
         type: Sequelize.STRING
       }
