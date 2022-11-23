@@ -9,18 +9,17 @@ module.exports = {
         allowNull: false
       },
 
-      cpf: {
+      aluno_cpf: {
         allowNull: false,
-        primaryKey: true,
         type: Sequelize.STRING
       },
 
-      qualFicha: {
+      tipo_ficha: {
         allowNull: false,
         type: Sequelize.INTEGER
       },
 
-      nomeExercicio: {
+      nome_exercicio: {
         allowNull: false,
         type: Sequelize.STRING
       },
@@ -33,11 +32,6 @@ module.exports = {
       repeticoes: {
         allowNull: false,
         type: Sequelize.INTEGER
-      },
-
-      alunosCpf: {
-        allowNull: false,
-        type: Sequelize.STRING
       }
     });
   },
