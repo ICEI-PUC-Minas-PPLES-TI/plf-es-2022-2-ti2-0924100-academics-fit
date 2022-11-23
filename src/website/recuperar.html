@@ -40,7 +40,7 @@
                             <fieldset>
                                 
                                 <input class="btn inputlogin grey-bg" type="email" placeholder="Digite seu E-mail"
-                                    name="Email" text="Email" id="Email" style="margin-top: 35%;">
+                                    name="Email" text="Email" id="Email" style="margin-top: 35%;" required>
 
                                 <p></p>
 
@@ -60,6 +60,10 @@
 
         function ls1() {
             var email = document.getElementById("Email").value;
+            if (email == "") 
+                document.getElementById("Email").setCustomValidity("Email inválido");
+            else
+                document.getElementById("Email").setCustomValidity("");
             localStorage.setItem("email", email);
         }
 
