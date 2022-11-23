@@ -2,7 +2,7 @@
 
 module.exports = {
   up: (queryInterface, Sequelize) => {
-    return queryInterface.createTable("Exercicios", {
+    return queryInterface.createTable("Exercicio", {
       uid: {
         type: Sequelize.UUID,
         defaultValue: Sequelize.UUIDV4,
@@ -25,17 +25,22 @@ module.exports = {
         type: Sequelize.INTEGER
       },
 
-      grupoMuscular: {
+      grupo_muscular: {
         allowNull: false,
         type: Sequelize.STRING
       },
 
-      fichaCpf: {
+      ficha: {
         allowNull: false,
         type: Sequelize.STRING
       },
 
-      personaisCpf: {
+      personal_cpf: {
+        allowNull: false,
+        type: Sequelize.STRING
+      },
+
+      aluno_cpf: {
         allowNull: false,
         type: Sequelize.STRING
       }
@@ -43,6 +48,6 @@ module.exports = {
   },
 
   down: (queryInterface, Sequelize) => {
-    return queryInterface.dropTable("Exercicios");
+    return queryInterface.dropTable("Exercicio");
   }
 }
