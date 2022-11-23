@@ -2,7 +2,7 @@
 
 module.exports = {
   up: (queryInterface, Sequelize) => {
-    return queryInterface.createTable("Personais", {
+    return queryInterface.createTable("Personal", {
       uid: {
         type: Sequelize.UUID,
         defaultValue: Sequelize.UUIDV4,
@@ -28,17 +28,12 @@ module.exports = {
       pcd: {
         allowNull: false,
         type: Sequelize.STRING
-      },
-
-      cadastradosCpf: {
-        allowNull: false,
-        type: Sequelize.STRING
       }
     })
   },
 
   down: (queryInterface, Sequelize) => {
-    return queryInterface.dropTable("Personais");
+    return queryInterface.dropTable("Personal");
   },
 };  
 
