@@ -1,37 +1,16 @@
+'use strict';
+
 module.exports = (sequelize, DataTypes) => {
-    sequelize.define('Disponibilidade', {
-        uid: {
-            type: DataTypes.UUID,
-            defaultValue: DataTypes.UUIDV4,
-            allowNull: false
-          },
-    
-          cpf: {
-            allowNull: false,
-            primaryKey: true,
-            type: DataTypes.STRING
-          },
-    
-          diaSemana: {
-            allowNull: false,
-            type: DataTypes.STRING
-          },
-    
-          horario: {
-            allowNull: false,
-            type: DataTypes.DATE
-          },
-    
-          personaisCpf: {
-            allowNull: false,
-            type: DataTypes.STRING
-          }
-    });
+  sequelize.define('Disponibilidade', {});
+  Disponibilidade.associate = function (models) {};
 
-    Disponibilidade.associate = function(models) {
-        Disponibilidade.belongsTo(models.Personais, {
-            foreignKey: "personaisCpf"
-        });
-    };
+  Disponibilidade.init({
+    cpf: DataTypes.STRING,
+    dia_semana: DataTypes.STRING
+  }, {
+    sequelize,
+    modelName: 'Disponibilidade',
+  });
+
+  return Disponibilidade;
 };
-

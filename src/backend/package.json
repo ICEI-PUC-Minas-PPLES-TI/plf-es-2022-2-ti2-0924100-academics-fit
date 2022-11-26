@@ -1,5 +1,5 @@
 {
-  "name": "academics-fit",
+  "name": "academics-fit-back-end-node",
   "version": "1.0.0",
   "description": "Trabalho Interdisciplinar ICEI PUC Minas",
   "main": "server.js",
@@ -16,9 +16,9 @@
   "dependencies": {
     "body-parser": "^1.20.1",
     "express": "^4.18.2",
-    "sequelize": "^6.25.5",
-    "sequelize-cli": "^6.5.2",
     "pg": "^8.8.0",
-    "pg-hstore": "^2.3.4"
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.25.5",
+    "sequelize-cli": "^6.5.2"
   }
 }

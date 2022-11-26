@@ -1,10 +1,11 @@
-const app = require('./src/app');
+const express = require("express"); 
+const app = express();
+
+const routes = require('./src/routes/index');
+
+routes(app);
 
 const port = process.env.PORT || 3030;
-
-// app.get('/', (req, res) => {
-//     res.status(200).send('sei la');
-// }); 
 
 app.listen(port, () => {
     console.log(`http://localhost:${port}`);

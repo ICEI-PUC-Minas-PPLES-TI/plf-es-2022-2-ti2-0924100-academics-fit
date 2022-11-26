@@ -1,53 +1,50 @@
-'use strict'
+'use strict';
 
 module.exports = {
-  up: (queryInterface, Sequelize) => {
-    return queryInterface.createTable("Exercicio", {
+  async up(queryInterface, Sequelize) {
+    await queryInterface.createTable('Personais', {
       uid: {
         type: Sequelize.UUID,
         defaultValue: Sequelize.UUIDV4,
         allowNull: false
       },
-
       id: {
         allowNull: false,
-        primaryKey: true,
-        type: Sequelize.STRING
-      },
-
-      nome: {
-        allowNull: false,
-        type: Sequelize.STRING
-      },
-
-      link: {
-        allowNull: false,
+        autoIncrement: true,
         type: Sequelize.INTEGER
       },
-
-      grupo_muscular: {
+      cpf: {
+        primaryKey: true,
         allowNull: false,
         type: Sequelize.STRING
       },
-
-      ficha: {
+      especializacao: {
         allowNull: false,
         type: Sequelize.STRING
       },
-
-      personal_cpf: {
+      pcd: {
         allowNull: false,
         type: Sequelize.STRING
       },
-
-      aluno_cpf: {
+      personal_email: {
         allowNull: false,
         type: Sequelize.STRING
+      },
+      usuario_email_fk: {
+        allowNull: false,
+        type: Sequelize.STRING
+      },
+      createdAt: {
+        allowNull: false,
+        type: Sequelize.DATE
+      },
+      updatedAt: {
+        allowNull: false,
+        type: Sequelize.DATE
       }
     });
   },
-
-  down: (queryInterface, Sequelize) => {
-    return queryInterface.dropTable("Exercicio");
+  async down(queryInterface, Sequelize) {
+    await queryInterface.dropTable('Personais');
   }
-}
+};
