@@ -84,13 +84,13 @@ O aplicativo em desenvolvimento, surge para solucionar esse deficit gerado pela 
 
 ## 3.3. Modelagem dos Processos
 
-### 3.3.1 Processo – Matricula academia
+### 3.3.1 Sub-processo – Matricula academia
 
 **Esse processo mostra as atividades realizadas pelo usuário a partir do momento que ele entra na academia, até a sua matricula e acesso ao sistema interno e possibilidade de marcar aulas com personais.**
 
 ![Exemplo de um Modelo BPMN do PROCESSO 1](imagens/entrada(1).png "Modelo BPMN do Processo 1.")
 
-### 3.3.2 Sub-processo – Processo de cadastro/login e acesso ao sistema
+### 3.3.2 Processo de cadastro/login e acesso ao sistema
 
 **Este sub-processo mostra o passo-a-passo para o cadastro/login do personal/aluno, até seu acesso ao sistema.**
 
@@ -102,20 +102,13 @@ O aplicativo em desenvolvimento, surge para solucionar esse deficit gerado pela 
 
 ![Exemplo de um Modelo BPMN do PROCESSO 2](imagens/montagem%20ficha%20Diagram.png)
 
-
-### 3.3.4 Processo – Exame Físico pelo Avaliador.
-
-**Este processo descreve as etapas de avaliação física do usuário executadas pelo avaliador.**
-
-![Modelo BPMN Exame Físico pelo Avaliador](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-academics-fit/blob/master/docs/imagens/Exame%20F%C3%ADsico%20Diagram%20(3).png?raw=true)
-
-### 3.3.5 Modelo BPMN contratação de profissionais.
+### 3.3.4 Sub-processo - Contratação de profissionais.
 
 **Processo relacionado a contratação dos profissionais para a academia.**
 
 ![Modelo BPMN contratação de profissionais: ](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-academics-fit/blob/master/docs/imagens/processora%20Diagrama.png?raw=true)
 
-### 3.3.6 Modelo busca de profissionais por alunos.
+### 3.3.6 Sub-processo - Marcação de aula.
 
 **Processo voltado à conexão entre aluno e personal.**
 
