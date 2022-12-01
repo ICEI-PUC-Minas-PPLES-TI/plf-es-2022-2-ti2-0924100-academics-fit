@@ -108,7 +108,7 @@ O aplicativo em desenvolvimento, surge para solucionar esse deficit gerado pela 
 
 ![Modelo BPMN contratação de profissionais: ](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-academics-fit/blob/master/docs/imagens/processora%20Diagrama.png?raw=true)
 
-### 3.3.6 Sub-processo - Marcação de aula.
+### 3.3.6 Processo - Marcação de aula.
 
 **Processo voltado à conexão entre aluno e personal.**
 
