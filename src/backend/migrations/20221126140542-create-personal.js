@@ -28,7 +28,11 @@ module.exports = {
       },
       personal_email: {
         allowNull: false,
-        type: Sequelize.STRING
+        type: Sequelize.STRING,
+        references: {
+          model: 'Personais',
+          key: 'cpf'
+        }
       },
       usuario_email_fk: {
         allowNull: false,

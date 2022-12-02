@@ -3,6 +3,11 @@
 module.exports = {
   async up(queryInterface, Sequelize) {
     await queryInterface.createTable('Alunos', {
+      uid: {
+        type: Sequelize.UUID,
+        defaultValue: Sequelize.UUIDV4,
+        allowNull: false
+      },
       id: {
         allowNull: false,
         autoIncrement: true,
@@ -25,17 +30,25 @@ module.exports = {
         allowNull: false,
         type: Sequelize.DOUBLE
       },
-      usuario_email_fk: {
-        allowNull: false,
-        type: Sequelize.STRING
-      },
       feedback_id: {
         allowNull: false,
         type: Sequelize.INTEGER
       },
+      usuario_email_fk: {
+        allowNull: false,
+        type: Sequelize.STRING,
+        references: {
+          model: 'Usuarios',
+          key: 'email'
+        }
+      },
       feedback_id_fk: {
         allowNull: false,
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
+        references: {
+          model: 'Feedbacks',
+          key: 'id'
+        }
       },
       createdAt: {
         allowNull: false,
