@@ -88,31 +88,31 @@ O aplicativo em desenvolvimento, surge para solucionar esse deficit gerado pela 
 
 **Esse processo mostra as atividades realizadas pelo usuário a partir do momento que ele entra na academia, até a sua matricula e acesso ao sistema interno e possibilidade de marcar aulas com personais.**
 
-![Exemplo de um Modelo BPMN do PROCESSO 1](imagens/entrada(1).png "Modelo BPMN do Processo 1.")
+![Exemplo de um Modelo BPMN do PROCESSO 1](imagens/Montagem_ficha_Diagrama.png "Modelo BPMN do Processo 1.")
 
 ### 3.3.2 Processo de cadastro/login e acesso ao sistema
 
 **Este sub-processo mostra o passo-a-passo para o cadastro/login do personal/aluno, até seu acesso ao sistema.**
 
-![Modelo BPMN Cadastro/login e acesso ao sistema](https://user-images.githubusercontent.com/100444559/192823645-59566fd6-68df-493f-b8bb-5b616efa8dd8.png)
+![Modelo BPMN Cadastro/login e acesso ao sistema](imagens/Cadastro_login_e_acesso_ao_sistema_Diagrama.png)
 
 ### 3.3.3 Sub-processo – Montagem de ficha
 
 **Este sub-processo apresenta o processo de montagem de ficha do usuário que foi solicitada pelo mesmo.**
 
-![Exemplo de um Modelo BPMN do PROCESSO 2](imagens/montagem%20ficha%20Diagram.png)
+![Exemplo de um Modelo BPMN do PROCESSO 2](imagens/Montagem_ficha_Diagrama.png)
 
 ### 3.3.4 Sub-processo - Contratação de profissionais.
 
 **Processo relacionado a contratação dos profissionais para a academia.**
 
-![Modelo BPMN contratação de profissionais: ](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-academics-fit/blob/master/docs/imagens/processora%20Diagrama.png?raw=true)
+![Modelo BPMN contratação de profissionais: ](imagens/Contratação_de_profissionais_Diagrama.png)
 
 ### 3.3.6 Processo - Marcação de aula.
 
 **Processo voltado à conexão entre aluno e personal.**
 
-![Modelo busca de profissionais por alunos](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-academics-fit/blob/master/docs/imagens/Encontro%20do%20personal.png?raw=true)
+![Modelo busca de profissionais por alunos](imagens/Marcação_de_aula_Diagrama.png)
 
 ## 4. Projeto da Solução
 
