@@ -106,13 +106,15 @@ O aplicativo em desenvolvimento, surge para solucionar esse deficit gerado pela 
 
 **Processo relacionado a contratação dos profissionais para a academia.**
 
-![Modelo BPMN contratação de profissionais: ](imagens/Contratação_de_profissionais.png)
+![Modelo BPMN contratação de profissionais: ]![Contratacao profissionais Diagrama](https://user-images.githubusercontent.com/57960595/205284420-5661bd9c-171c-423b-9e3e-6ce785046c95.png)
+
 
 ### 3.3.6 Processo - Marcação de aula.
 
-**Processo voltado à conexão entre aluno e personal.**
+**Processo voltado à conexão entre aluno e personal.**![Marcacao de aula](https://user-images.githubusercontent.com/57960595/205284306-07389589-c884-4666-a13f-ea60921586aa.png)
 
-![Modelo busca de profissionais por alunos](imagens/Marcação_de_aula_Diagrama.png)
+
+![Modelo busca de profissionais por alunos]
 
 ## 4. Projeto da Solução
 
