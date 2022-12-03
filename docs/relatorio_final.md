@@ -87,8 +87,8 @@ O aplicativo em desenvolvimento, surge para solucionar esse deficit gerado pela 
 ### 3.3.1 Processo de cadastro/login e acesso ao sistema
 
 **Este sub-processo mostra o passo-a-passo para o cadastro/login do personal/aluno, até seu acesso ao sistema.**
+![Cadastro_login e acesso ao sistema Diagrama](https://user-images.githubusercontent.com/57960595/205417657-40fd0042-8e07-4e82-a4ba-21a5de7abe1a.png)
 
-[Cadastro_login e acesso ao sistema Diagrama](https://user-images.githubusercontent.com/57960595/205417377-2cbd76c7-cf47-4a32-acde-52c15b558f79.png)
 
 ### 3.3.2 Sub-processo – Montagem de ficha
 
@@ -106,8 +106,6 @@ O aplicativo em desenvolvimento, surge para solucionar esse deficit gerado pela 
 ### 3.3.4 Processo - Marcação de aula.
 
 **Processo voltado à conexão entre aluno e personal.**!![Busca de profissionais pelos alunos Diagrama](https://user-images.githubusercontent.com/57960595/205417580-e1d5806f-b405-4395-8b66-47e40011c83f.png)
-
-
 
 
 ## 4. Projeto da Solução
