@@ -84,34 +84,28 @@ O aplicativo em desenvolvimento, surge para solucionar esse deficit gerado pela 
 
 ## 3.3. Modelagem dos Processos
 
-### 3.3.1 Sub-processo – Matricula academia
-
-**Esse processo mostra as atividades realizadas pelo usuário a partir do momento que ele entra na academia, até a sua matricula e acesso ao sistema interno e possibilidade de marcar aulas com personais.**
-
-![Exemplo de um Modelo BPMN do PROCESSO 1](imagens/Matricula_academia.png "Modelo BPMN do Processo 1.")
-
-### 3.3.2 Processo de cadastro/login e acesso ao sistema
+### 3.3.1 Processo de cadastro/login e acesso ao sistema
 
 **Este sub-processo mostra o passo-a-passo para o cadastro/login do personal/aluno, até seu acesso ao sistema.**
 
-![Modelo BPMN Cadastro/login e acesso ao sistema](imagens/Cadastro_login_e_acesso_ao_sistema_Diagrama.png)
+![Modelo BPMN Cadastro/login e acesso ao sistema]![Cadastro_login e acesso ao sistema Diagrama](https://user-images.githubusercontent.com/57960595/205417377-2cbd76c7-cf47-4a32-acde-52c15b558f79.png)
 
-### 3.3.3 Sub-processo – Montagem de ficha
+### 3.3.2 Sub-processo – Montagem de ficha
 
 **Este sub-processo apresenta o processo de montagem de ficha do usuário que foi solicitada pelo mesmo.**
 
 ![Exemplo de um Modelo BPMN do PROCESSO 2](imagens/Montagem_ficha_Diagrama.png)
 
-### 3.3.4 Sub-processo - Contratação de profissionais.
+### 3.3.3 Sub-processo - Contratação de profissionais.
 
 **Processo relacionado a contratação dos profissionais para a academia.**
 
 ![Contratacao profissionais Diagrama](https://user-images.githubusercontent.com/57960595/205284420-5661bd9c-171c-423b-9e3e-6ce785046c95.png)
 
 
-### 3.3.6 Processo - Marcação de aula.
+### 3.3.4 Processo - Marcação de aula.
 
-**Processo voltado à conexão entre aluno e personal.**![Marcacao de aula](https://user-images.githubusercontent.com/57960595/205284306-07389589-c884-4666-a13f-ea60921586aa.png)
+**Processo voltado à conexão entre aluno e personal.**!![Busca de profissionais pelos alunos Diagrama](https://user-images.githubusercontent.com/57960595/205417439-f538d280-f879-4fe3-89e7-a60f1c7cb951.png)
 
 
 
