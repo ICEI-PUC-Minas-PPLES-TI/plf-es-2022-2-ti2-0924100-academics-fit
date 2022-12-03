@@ -95,7 +95,7 @@ O aplicativo em desenvolvimento, surge para solucionar esse deficit gerado pela 
 
 **Este sub-processo apresenta o processo de montagem de ficha do usuário que foi solicitada pelo mesmo.**
 
-![Exemplo de um Modelo BPMN do PROCESSO 2](imagens/Montagem_ficha_Diagrama.png)
+![Montagem ficha Diagrama](https://user-images.githubusercontent.com/57960595/205450630-2b3be2fb-74b5-4040-85ef-9d3118f4569d.png)
 
 ### 3.3.3 Sub-processo - Contratação de profissionais.
 
@@ -208,7 +208,7 @@ Descreva qual(is) tecnologias você vai usar para resolver o seu problema, ou se
 
 Apresente o modelo de dados por meio de um modelo relacional ou Diagrama de Entidade-Relacionamento (DER) que contemple todos conceitos e atributos apresentados item anterior. 
 
-![Modelo_relacional](https://user-images.githubusercontent.com/57960595/205420880-ac09d85e-acfc-4859-be8f-b09a7ea2cbc4.png)
+![Modelo_relacional](https://user-images.githubusercontent.com/57960595/205450583-bc0db2cc-3c86-435c-955b-ee0e192ed285.png)
 
 ## 6. Indicadores de desempenho
 
