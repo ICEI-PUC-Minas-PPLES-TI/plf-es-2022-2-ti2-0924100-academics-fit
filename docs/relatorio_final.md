@@ -87,7 +87,8 @@ O aplicativo em desenvolvimento, surge para solucionar esse deficit gerado pela 
 ### 3.3.1 Processo de cadastro/login e acesso ao sistema
 
 **Este sub-processo mostra o passo-a-passo para o cadastro/login do personal/aluno, até seu acesso ao sistema.**
-![Cadastro_login e acesso ao sistema Diagrama](https://user-images.githubusercontent.com/57960595/205417657-40fd0042-8e07-4e82-a4ba-21a5de7abe1a.png)
+![Cadastro_login e acesso ao sistema Diagrama](https://user-images.githubusercontent.com/57960595/205418772-ec65da62-931b-4d3f-aef7-eac15e3eaf19.png)
+
 
 
 ### 3.3.2 Sub-processo – Montagem de ficha
@@ -114,47 +115,27 @@ O aplicativo em desenvolvimento, surge para solucionar esse deficit gerado pela 
 
 Descrever aqui cada uma das propriedades das atividades de cada um dos processos. Devem estar relacionadas com o modelo de processo apresentado anteriormente.
 
-#### Processo 1 – Matrícula academia
+#### Processo 1 - Processo de cadastro/login e acesso ao sistema
 
-**Cadastro dados**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| Nome | caixa de Texto | deve possuir apenas letras e tamanho máximo de 25 caracteres  |  |
-| Gênero | caixa de seleção | | |
-| Data de nascimento | data |  |  |
-| CPF | número | devem possuir 11 algarismos |  |
-| Forma de pagamento | caixa de seleção |  |  |
-
-
-**definição matrícula**
+**Solicitar login**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| matricula | caixa de seleção |  |  |
-| Número de estrelas | caixa de seleção | é possivel selecionar valores de 1 a 5 |  |
-| Avaliação do serviço | campo de texto | deve possuir no máximo 80 caracteres |  |
+| Usuário | caixa de Texto | Até 70 caracteres  |  |
+| Senha | caixa de Texto | Minimo de 12 caracteres | |
 
-#### Processo 2 - Processo de cadastro/login e acesso ao sistema
-
-**Cadastro de dados do aluno (redirecionando para o cadastro dados do processo 1)**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| Nome | caixa de Texto | deve possuir apenas letras e tamanho máximo de 25 caracteres  |  |
-| Gênero | caixa de seleção | | |
-| Data de nascimento | data |  |  |
-| CPF | número | devem possuir 11 algarismos |  |
-| Forma de pagamento | caixa de seleção |  |  |
-
-**Cadastro de dados do personal**
+**Cadastrar dados**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
 | Nome | Caixa de Texto | deve possuir apenas letras e tamanho máximo de 25 caracteres |  |
-| Gênero | caixa de seleção | | |
-| Data de nascimento | data |  |  |
-| CPF | número | devem possuir 11 algarismos |  |
+
+**Avaliação sistema**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Usuário | caixa de Texto | Até 70 caracteres  |  |
+| Senha | caixa de Texto | Minimo de 12 caracteres | |
 
 #### Processo 3 – Montagem de ficha
 
