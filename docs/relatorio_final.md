@@ -88,7 +88,7 @@ O aplicativo em desenvolvimento, surge para solucionar esse deficit gerado pela 
 
 **Esse processo mostra as atividades realizadas pelo usuário a partir do momento que ele entra na academia, até a sua matricula e acesso ao sistema interno e possibilidade de marcar aulas com personais.**
 
-![Exemplo de um Modelo BPMN do PROCESSO 1](imagens/Montagem_ficha_Diagrama.png "Modelo BPMN do Processo 1.")
+![Exemplo de um Modelo BPMN do PROCESSO 1](imagens/Matricula_academia.png "Modelo BPMN do Processo 1.")
 
 ### 3.3.2 Processo de cadastro/login e acesso ao sistema
 
