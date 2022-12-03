@@ -129,15 +129,21 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
 | Nome | Caixa de Texto | deve possuir apenas letras e tamanho máximo de 25 caracteres |  |
+| Email | Caixa de Texto | tamanho máximo de 30 caracteres e caracter especial @ |  |
+| Senha | Caixa de Texto | deve possuir tamanho minimo de 12 caracteres |  |
+| CPF | Caixa de Texto | deve possuir apenas números e tamnho de 11 digitos |  |
+| Altura | Campo númerico | deve ser escrito em centimetros |  |
+| Peso | Campo númerico | deve ser escrito em gramas |  |
 
 **Avaliação sistema**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Usuário | caixa de Texto | Até 70 caracteres  |  |
-| Senha | caixa de Texto | Minimo de 12 caracteres | |
+| Nota | caixa de seleção | de 1 a 10 estrelas  |  |
+| Comentario | caixa de Texto | Máximo de 300 caracteres | |
+| recomendariaosistema | Caixa de seleção| valor de 1 a 10 |  |
 
-#### Processo 3 – Montagem de ficha
+#### Processo 2 – Montagem de ficha
 
 **Marcar objetivos**
 
@@ -152,47 +158,9 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | --- | --- | --- | --- |
 |  Especificar disponibilidade  |  Múltipla escolha  |  Se o usuário deverá especificar a frequência de disponibilidade e os dias da semana | Nada selecionado
 
-#### Processo 4 – Exame Físico 
 
-**Anamnese**
 
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| Hábitos Gerais | Caixa de Texto | Sem Restrições |  |
-| Histórico Familiar | caixa de texto | Sem Restrições | |
-| Cirurgías e Lesões | Caixa de texto |  |  |
-
-**Avaliação Antrométrica e Medição Temporal**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| Peso | Caixa Numérica |  |  |
-| Altura | Caixa Numérica |  |  |
-| Massa Muscular | Caixa Numérica |  |  |
-| Percentual de Gordura | Caixa Numérica |  |  |
-
-**Calculo IMC**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| IMC | Caixa Numérica |  |  |
-
-**Avaliação Postural e Neuromuscular**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| Desvio de Coluna | Checkbox |  |  |
-
-**Avaliação Cardiorrespiratório**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| Pressão Arterial Sistólica | Caixa Numérica |  |  |
-| Pressão Arterial Diastólica | Caixa Numérica |  |  |
-| Pressão Arterial Durante Esforço | Caixa Numérica |  |  |
-| Esforço Muscular de membros inferiores | Caixa Numérica |  |  |
-
-#### Processo 5  – contratação de profissionais
+#### Processo 3  – contratação de profissionais
 
 **Cadastro de dados dos profissionais**
 
@@ -208,18 +176,13 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 |número da casa| texto|  |  |
 |complemento| texto|  |  |
 
-
-
-
 **Apresentar Currículo**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
 |  Currículo | anexo | premissa do currículo |  |
 
-
-
-#### Processo 6  – Matrícula final no app
+#### Processo 4  – Marcação de aula
 
 **Cadastro final dos clientes**
 
@@ -245,7 +208,7 @@ Descreva qual(is) tecnologias você vai usar para resolver o seu problema, ou se
 
 Apresente o modelo de dados por meio de um modelo relacional ou Diagrama de Entidade-Relacionamento (DER) que contemple todos conceitos e atributos apresentados item anterior. 
 
-![Modelo_Relacional](https://user-images.githubusercontent.com/57960595/205418216-6ce35ec2-cef3-48b0-beaf-f3c179e0fb34.png)
+![Modelo_relacional](https://user-images.githubusercontent.com/57960595/205419470-b1ca4818-062b-4330-bac0-e880d595a66d.png)
 
 ## 6. Indicadores de desempenho
 
