@@ -208,7 +208,7 @@ Descreva qual(is) tecnologias você vai usar para resolver o seu problema, ou se
 
 Apresente o modelo de dados por meio de um modelo relacional ou Diagrama de Entidade-Relacionamento (DER) que contemple todos conceitos e atributos apresentados item anterior. 
 
-![Modelo_relacional](https://user-images.githubusercontent.com/57960595/205450583-bc0db2cc-3c86-435c-955b-ee0e192ed285.png)
+![Modelo_relacional](https://user-images.githubusercontent.com/57960595/205450710-9220ceea-e713-4841-a716-211ba6915201.png)
 
 ## 6. Indicadores de desempenho
 
