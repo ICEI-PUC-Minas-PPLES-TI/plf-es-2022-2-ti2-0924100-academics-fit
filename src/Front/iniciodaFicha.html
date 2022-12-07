@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AcademicsFIT</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="CSS/styleficha.css">
+    <script src="JS/mascaraAluno.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo"><span> AcademicsFIT</span></div>
+        </nav>
+        <div class='container' style="margin-top: 0px;">
+            <div class='card' style="width: 70vw;">
+                <h1> Falta pouco para completar sua ficha </h1>
+                <div id='msgError'></div>
+                <form action="">
+                    <div class='label-float justify-center'>
+                        <input type='text' id='usuario' paceholder='' required style="width: 50%;">
+                        <label id='userLabel' for='usuario' style="left: 25%;">Altura</label>
+                    </div>
+                    <div class='label-float justify-center'>
+                        <input type='text' id='CpfCadastroAluno' maxlength="11" paceholder='' required
+                            style="width: 50%;">
+                        <label id='userLabel' for='usuario' style="left: 25%;">Peso</label>
+                    </div>
+                    <div class='label-float justify-center'>
+                        <input type='text' id='usuario' paceholder='' required style="width: 50%;">
+                        <label id='userLabel' for='usuario' style="left: 25%;">Objetivos</label>
+                    </div>
+                    <div class='label-float justify-center'>
+                        <textarea id="freeform" name="freeform" rows="4" cols="50">Caso deseje falar mais sobre seus objetivos escreva aqui</textarea>
+                    </div>
+                    <div class='justify-center'>
+                      <button>Prosseguir</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>
