@@ -106,7 +106,7 @@ O aplicativo em desenvolvimento, surge para solucionar esse deficit gerado pela 
 
 ### 3.3.4 Processo - Marcação de aula.
 
-**Processo voltado à conexão entre aluno e personal.**!![Busca de profissionais pelos alunos Diagrama](https://user-images.githubusercontent.com/57960595/205417580-e1d5806f-b405-4395-8b66-47e40011c83f.png)
+**Processo voltado à conexão entre aluno e personal.**![Busca de profissionais pelos alunos Diagrama](https://user-images.githubusercontent.com/57960595/206734096-b2c01ba6-34d1-4e3d-b919-fd45eb3ad9fd.png)
 
 
 ## 4. Projeto da Solução
