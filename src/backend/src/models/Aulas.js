@@ -1,48 +1,36 @@
 'use strict';
-
+const { Model } = require('sequelize');
 module.exports = (sequelize, DataTypes) => {
-  const Aulas = sequelize.define('Aulas', {
-    uid: {
-      type: DataTypes.UUID,
-      defaultValue: DataTypes.UUIDV4,
-      allowNull: false
-    },
-    id: {
-      allowNull: false,
-      autoIncrement: true,
-      primaryKey: true,
-      type: DataTypes.INTEGER
-    },
-    aluno_cpf_fk: {
-      allowNull: false,
-      type: DataTypes.STRING
-    },
-    personal_cpf_fk: {
-      allowNull: false,
-      type: DataTypes.STRING
-    },
-    data: {
-      allowNull: false,
-      type: DataTypes.DATE
-    },
-    ficha_fk: {
-      allowNull: false,
-      type: DataTypes.INTEGER
-    },
-    createdAt: {
-      allowNull: false,
-      type: DataTypes.DATE
-    },
-    updatedAt: {
-      allowNull: false,
-      type: DataTypes.DATE
+  class Aulas extends Model {
+    /**
+     * Helper method for defining associations.
+     * This method is not a part of Sequelize lifecycle.
+     * The `models/index` file will call this method automatically.
+     */
+    static associate(models) {
+      Aulas.belongsTo(models.Alunos, {
+        foreignKey: 'aluno_cpf_fk',
+      });
+
+      Aulas.belongsTo(models.Personais, {
+        foreignKey: 'personal_cpf_fk',
+      });
+
+      Aulas.belongsTo(models.Fichas, {
+        foreignKey: 'ficha_id_fk',
+      });
     }
+  }
+
+  Aulas.init({
+    aluno_cpf_fk: DataTypes.STRING,
+    personal_cpf_fk: DataTypes.STRING,
+    data: DataTypes.DATE,
+    ficha_id_fk: DataTypes.INTEGER
+  }, {
+    sequelize,
+    modelName: 'Aulas',
   });
-  Aulas.associate = function (models) {
-    Aulas.belongsTo(models.Alunos, { foreignKey: 'aluno_cpf_fk' });
-    Aulas.belongsTo(models.Personais, { foreignKey: 'personal_cpf_fk' });
-    Aulas.belongsTo(models.Fichas, { foreignKey: 'ficha_fk' });
-  };
 
   return Aulas;
 };

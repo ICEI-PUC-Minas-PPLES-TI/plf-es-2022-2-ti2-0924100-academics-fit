@@ -1,44 +1,33 @@
 'use strict';
+const { Model } = require('sequelize');
 
 module.exports = (sequelize, DataTypes) => {
-  const Usuarios = sequelize.define('Usuarios', {
-    uid: {
-      type: DataTypes.UUID,
-      defaultValue: DataTypes.UUIDV4,
-      allowNull: false
-    },
-    id: {
-      allowNull: false,
-      autoIncrement: true,
-      primaryKey: true,
-      type: DataTypes.INTEGER
-    },
-    email: {
-      allowNull: false,
-      type: DataTypes.STRING
-    },
-    nome: {
-      allowNull: false,
-      type: DataTypes.STRING
-    },
-    senha: {
-      allowNull: false,
-      type: DataTypes.STRING
-    },
-    createdAt: {
-      allowNull: false,
-      type: DataTypes.DATE
-    },
-    updatedAt: {
-      allowNull: false,
-      type: DataTypes.DATE
+  class Usuarios extends Model {
+    /**
+     * Helper method for defining associations.
+     * This method is not a part of Sequelize lifecycle.
+     * The `models/index` file will call this method automatically.
+     */
+    static associate(models) {
+      Usuarios.hasMany(models.Personais, {
+        foreignKey: 'usuario_email_fk',
+      });
+
+      Usuarios.hasMany(models.Alunos, {
+        foreignKey: 'usuario_email_fk',
+      });
     }
-  });
+  }
   
-  Usuarios.associate = function (models) {
-    Usuarios.hasMany(models.Alunos, { foreignKey: 'usuario_email_fk' });
-    Usuarios.hasMany(models.Personais, { foreignKey: 'usuario_email_fk' });
-  };
+  Usuarios.init({
+    email: DataTypes.STRING,
+    nome: DataTypes.STRING,
+    senha: DataTypes.STRING,
+    tipo: DataTypes.STRING,
+  }, {
+    sequelize,
+    modelName: 'Usuarios',
+  });
 
   return Usuarios;
 };

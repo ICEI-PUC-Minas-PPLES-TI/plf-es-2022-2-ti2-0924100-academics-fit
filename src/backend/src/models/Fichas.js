@@ -1,45 +1,32 @@
 'use strict';
+const { Model } = require('sequelize');
 
 module.exports = (sequelize, DataTypes) => {
-  const Fichas = sequelize.define('Fichas', {
-    uid: {
-      type: DataTypes.UUID,
-      defaultValue: DataTypes.UUIDV4,
-      allowNull: false
-    },
-    id: {
-      allowNull: false,
-      autoIncrement: true,
-      primaryKey: true,
-      type: DataTypes.INTEGER
-    },
-    nome_exercicio: {
-      allowNull: false,
-      type: DataTypes.STRING
-    },
-    series: {
-      allowNull: false,
-      type: DataTypes.INTEGER
-    },
-    repeticoes: {
-      allowNull: false,
-      type: DataTypes.INTEGER
-    },
-    createdAt: {
-      allowNull: false,
-      type: DataTypes.DATE
-    },
-    updatedAt: {
-      allowNull: false,
-      type: DataTypes.DATE
+  class Fichas extends Model {
+    /**
+     * Helper method for defining associations.
+     * This method is not a part of Sequelize lifecycle.
+     * The `models/index` file will call this method automatically.
+     */
+    static associate(models) {
+      Fichas.hasMany(models.Exercicios, {
+        foreignKey: 'ficha_id_fk',
+      });
+
+      Fichas.hasMany(models.Aulas, {
+        foreignKey: 'ficha_id_fk',
+      });
     }
-  });
+  }
   
-  Fichas.associate = function (models) {
-    Fichas.hasMany(models.Aulas, { foreignKey: 'ficha_fk' });
-    Fichas.hasMany(models.Exercicios, { foreignKey: 'ficha_fk' });
-    Fichas.hasMany(models.Personais, { foreignKey: 'personal_cpf_fk' });
-  };
+  Fichas.init({
+    nome_exercicio: DataTypes.STRING,
+    series: DataTypes.INTEGER,
+    repeticoes: DataTypes.INTEGER
+  }, {
+    sequelize,
+    modelName: 'Fichas',
+  });
 
   return Fichas;
 };

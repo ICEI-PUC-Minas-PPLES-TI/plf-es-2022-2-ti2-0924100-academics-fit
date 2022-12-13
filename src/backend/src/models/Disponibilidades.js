@@ -1,39 +1,27 @@
 'use strict';
+const { Model } = require('sequelize');
 
 module.exports = (sequelize, DataTypes) => {
-  const Disponibilidades = sequelize.define('Disponibilidades', {
-    uid: {
-      type: DataTypes.UUID,
-      defaultValue: DataTypes.UUIDV4,
-      allowNull: false
-    },
-    id: {
-      allowNull: false,
-      autoIncrement: true,
-      type: DataTypes.INTEGER
-    },
-    cpf: {
-      allowNull: false,
-      primaryKey: true,
-      type: DataTypes.STRING
-    },
-    dia_semana: {
-      allowNull: false,
-      type: DataTypes.STRING
-    },
-    createdAt: {
-      allowNull: false,
-      type: DataTypes.DATE
-    },
-    updatedAt: {
-      allowNull: false,
-      type: DataTypes.DATE
+  class Disponibilidades extends Model {
+    /**
+     * Helper method for defining associations.
+     * This method is not a part of Sequelize lifecycle.
+     * The `models/index` file will call this method automatically.
+     */
+    static associate(models) {
+      Disponibilidades.belongsTo(models.Personais, {
+        foreignKey: 'cpf',
+      });
     }
-  });
+  }
 
-  Disponibilidades.associate = function (models) {
-    Disponibilidades.belongsTo(models.Alunos, { foreignKey: 'cpf' });
-  };
+  Disponibilidades.init({
+    cpf: DataTypes.STRING,
+    dia_semana: DataTypes.STRING
+  }, {
+    sequelize,
+    modelName: 'Disponibilidades',
+  });
 
   return Disponibilidades;
 };

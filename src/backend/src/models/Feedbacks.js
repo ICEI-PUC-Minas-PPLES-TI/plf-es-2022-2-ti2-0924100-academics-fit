@@ -1,47 +1,32 @@
 'use strict';
-
+const {
+  Model
+} = require('sequelize');
 module.exports = (sequelize, DataTypes) => {
-  const Feedbacks = sequelize.define('Feedbacks', {
-    uid: {
-      type: DataTypes.UUID,
-      defaultValue: DataTypes.UUIDV4,
-      allowNull: false
-    },
-    id: {
-      allowNull: false,
-      autoIncrement: true,
-      primaryKey: true,
-      type: DataTypes.INTEGER
-    },
-    avaliacao_sistema: {
-      allowNull: false,
-      type: DataTypes.INTEGER
-    },
-    comentario: {
-      allowNull: false,
-      type: DataTypes.STRING
-    },
-    recomendacao_sistema: {
-      allowNull: false,
-      type: DataTypes.INTEGER
-    },
-    personal_cpf_fk: {
-      allowNull: false,
-      type: DataTypes.STRING
-    },
-    createdAt: {
-      allowNull: false,
-      type: DataTypes.DATE
-    },
-    updatedAt: {
-      allowNull: false,
-      type: DataTypes.DATE
+  class Feedbacks extends Model {
+    /**
+     * Helper method for defining associations.
+     * This method is not a part of Sequelize lifecycle.
+     * The `models/index` file will call this method automatically.
+     */
+    static associate(models) {
+      Feedbacks.belongsTo(models.Personais, {
+        foreignKey: 'personal_cpf_fk',
+      });
+
+      Feedbacks.hasMany(models.Alunos, {
+        foreignKey: 'feedback_id_fk',
+      });
     }
+  }
+  Feedbacks.init({
+    avaliacao: DataTypes.INTEGER,
+    comentario: DataTypes.STRING,
+    recomendacao: DataTypes.INTEGER,
+    personal_cpf_fk: DataTypes.STRING
+  }, {
+    sequelize,
+    modelName: 'Feedbacks',
   });
-  Feedbacks.associate = function (models) {
-    Feedbacks.belongsTo(models.Personais, { foreignKey: 'personal_cpf_fk' });
-    Feedbacks.hasMany(models.Alunos, { foreignKey: 'feedback_id_fk' });
-  };
-  
   return Feedbacks;
 };

@@ -1,64 +1,41 @@
 'use strict';
-
 const { Model } = require('sequelize');
 
 module.exports = (sequelize, DataTypes) => {
-  const Alunos = sequelize.define('Alunos', {
-    uid: {
-      type: DataTypes.UUID,
-      defaultValue: DataTypes.UUIDV4,
-      allowNull: false
-    },
-    id: {
-      allowNull: false,
-      autoIncrement: true,
-      type: DataTypes.INTEGER
-    },
-    cpf: {
-      allowNull: false,
-      primaryKey: true,
-      type: DataTypes.STRING
-    },
-    altura: {
-      allowNull: false,
-      type: DataTypes.INTEGER
-    },
-    peso: {
-      allowNull: false,
-      type: DataTypes.DOUBLE
-    },
-    imc: {
-      allowNull: false,
-      type: DataTypes.DOUBLE
-    },
-    usuario_email_fk: {
-      allowNull: false,
-      type: DataTypes.STRING
-    },
-    feedback_id: {
-      allowNull: false,
-      type: DataTypes.INTEGER
-    },
-    feedback_id_fk: {
-      allowNull: false,
-      type: DataTypes.INTEGER
-    },
-    createdAt: {
-      allowNull: false,
-      type: DataTypes.DATE
-    },
-    updatedAt: {
-      allowNull: false,
-      type: DataTypes.DATE
+  class Alunos extends Model {
+    /**
+     * Helper method for defining associations.
+     * This method is not a part of Sequelize lifecycle.
+     * The `models/index` file will call this method automatically.
+     */
+    static associate(models) {
+      Alunos.belongsTo(models.Usuarios, {
+        foreignKey: 'usuario_email_fk',
+      });
+
+      Alunos.belongsTo(models.Feedbacks, {
+        foreignKey: 'feedback_id_fk',
+      });
+
+      Alunos.hasMany(models.Aulas, {
+        foreignKey: 'aluno_cpf_fk',
+      });
     }
+  }
+
+  Alunos.init({
+    cpf: DataTypes.STRING,
+    altura: DataTypes.FLOAT,
+    peso: DataTypes.FLOAT,
+    imc: DataTypes.FLOAT,
+    logado: DataTypes.BOOLEAN,
+    feedback_id: DataTypes.INTEGER,
+    usuario_email_fk: DataTypes.STRING,
+    feedback_id_fk: DataTypes.INTEGER
+  }, {
+    sequelize,
+    modelName: 'Alunos',
   });
-  
-  Alunos.associate = function (models) {
-    Alunos.belongsTo(models.Usuarios, { foreignKey: 'usuario_email_fk' });
-    Alunos.belongsTo(models.Feedbacks, { foreignKey: 'feedback_id_fk' });
-    Alunos.hasMany(models.Aulas, { foreignKey: 'aluno_cpf_fk' });
-    Alunos.hasMany(models.Disponibilidades, { foreignKey: 'cpf' });
-  };
 
   return Alunos;
 };
