@@ -1,8 +1,10 @@
 const bodyParser = require("body-parser");
-const usuariosRouter = require('../routes/usuariosRouter');
 const loginRouter = require('../routes/loginRouter');
 const cadastrarRouter = require('./cadastrarRouter');
+const usuarioRouter = require('./usuarioRouter');
+const alunoRouter = require('./alunoRouter');
+const personalRouter = require('./personalRouter');
 
 module.exports = app => {
-    app.use(bodyParser.json(), usuariosRouter, loginRouter, cadastrarRouter);
+    app.use(bodyParser.json(), usuarioRouter, loginRouter, cadastrarRouter, alunoRouter, personalRouter);
 };
