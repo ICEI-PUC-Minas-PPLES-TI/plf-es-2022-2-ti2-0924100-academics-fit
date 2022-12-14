@@ -284,7 +284,7 @@ Gabriel: Foi muito satisfatório trabalhar com cada integrante do grupo, realiza
 
 Henrique:
 
-João:
+João: Foi uma experiência incrível, vantajosa e divertidíssima trabalhar com cada um dos membros do grupo neste trabalho, com todos se doando ao máximo para com o projeto, nos dedicamos a entender e adaptar cada uma das sugestões, exigências e feedbacks dos nossos orientadores.
 
 Lucas:
 
