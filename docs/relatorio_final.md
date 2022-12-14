@@ -106,7 +106,7 @@ O aplicativo em desenvolvimento, surge para solucionar esse deficit gerado pela 
 
 **Processo voltado à conexão entre aluno e personal.**![Busca de profissionais pelos alunos Diagrama](https://user-images.githubusercontent.com/57960595/206734096-b2c01ba6-34d1-4e3d-b919-fd45eb3ad9fd.png)
 
-### 3.3.2 Sub-processo – Solicitação de ficha
+### 3.3.5 Sub-processo – Solicitação de ficha
 
 **Este sub-processo apresenta o processo de solicitação de ficha pelo aluno.**
 
@@ -263,6 +263,22 @@ Tela mostrando as fichas preenchidas
 ## 8. Conclusão
 
 Apresente aqui a conclusão do seu trabalho. Discussão dos resultados obtidos no trabalho, onde se verifica as observações pessoais de cada aluno. Poderá também apresentar sugestões de novas linhas de estudo.
+
+No trabalho realizado, tivemos bons desenvolvimentos quanto as partes separadas do projeto, conseguimos conectar o front com o back, todavia não tivesse muito sucesso integrando essas duas partes com o node.js para a criação das rotas. Trocamos de node.js para PHP, e tivemos que refazer todos os processos e telas, conseguimos realizar todas as partes e integrá-las, mas não conseguimos desenvolver todas os processos, e estes ficaram para implementação futura.
+
+Observações Pessoais:
+
+Diogo:
+
+Enzo:
+
+Gabriel: Foi muito satisfatório trabalhar com cada integrante do grupo, realizamos o máximo possível com o tempo que tínhamos. Nos dedicamos a entender o que era exigido e melhor e adaptar a cada feedback dos orientadores.
+
+Henrique:
+
+João:
+
+Lucas:
 
 # APÊNDICES
 
