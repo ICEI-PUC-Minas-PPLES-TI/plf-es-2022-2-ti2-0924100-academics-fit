@@ -282,7 +282,7 @@ Enzo: Gostei da equipe bem como do projeto, apesar de não ter dado tempo de imp
 
 Gabriel: Foi muito satisfatório trabalhar com cada integrante do grupo, realizamos o máximo possível com o tempo que tínhamos. Nos dedicamos a entender o que era exigido e melhor e adaptar a cada feedback dos orientadores.
 
-Henrique: Todos os membros da equipe se ajudaram, infrentamos alguns obstáculos pelo caminho más conseguimos contornar e realizar a entrega.
+Henrique: Todos os membros da equipe se ajudaram, enfrentamos alguns obstáculos pelo caminho mas conseguimos contornar e realizar a entrega.
 
 João: Foi uma experiência incrível, vantajosa e divertidíssima trabalhar com cada um dos membros do grupo neste trabalho, com todos se doando ao máximo para com o projeto, nos dedicamos a entender e adaptar cada uma das sugestões, exigências e feedbacks dos nossos orientadores.
 
