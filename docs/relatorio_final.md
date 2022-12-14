@@ -152,18 +152,13 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 #### Processo 2 – Montagem de ficha
 
-**Marcar objetivos**
+**Personal Preenche os Campos**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Objetivos(s) | Múltipla escolha | Algum campo deve ser marcado | Nada selecionado |
-|  Outros  |  Caixa de texto  |  Se a pessoa não marcou nada, deve digitar algo  | Campo vazio |
-
-**Marcar disponibilidade**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-|  Especificar disponibilidade  |  Múltipla escolha  |  Se o usuário deverá especificar a frequência de disponibilidade e os dias da semana | Nada selecionado
+| Exercicio | Caixa de Texto |  | deve possuir apenas letras e tamanho máximo de 25 caracteres |
+|  Series  |  Campo Numérico  |  | 1 |
+|  Repetições  |  Campo Numérico  |  | 8 |
 
 
 #### Processo 3  – contratação de profissionais
@@ -203,10 +198,23 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | Login | Caixa de Texto |  |  |
 | Senha | Caixa de texto enriquecido | Ao menos 10 caracteres, formados por ao menos uma letra, um número e um caractere especial |  |
 
+#### Processo 5  – Solicitação ficha
+
+**Selecionar Instrutor**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Matrícula do Instrutor | Campo Numérico |  |  |
+
+**Enviar Solicitação**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Matrícula do Aluno | Campo Numérico |  |  |
 
 ### 4.2. Tecnologias
 
-**Serão utilizadas Node, JavaScript, MySql, bootstrap, Visual Studio Code, GitHub para o desenvolvimento do projeto. O usúario vai interagir diretamente com o front end e a interface gráfica do site, para ter acesso aos recursos oferecidos por ele e de forma indereta acessar as informações presentes no banco de dados.**
+**Serão utilizadas Node, PHP, JavaScript, MySql, bootstrap, Visual Studio Code, GitHub para o desenvolvimento do projeto. O usúario vai interagir diretamente com o front end e a interface gráfica do site, para ter acesso aos recursos oferecidos por ele e de forma indereta acessar as informações presentes no banco de dados.**
 
 Descreva qual(is) tecnologias você vai usar para resolver o seu problema, ou seja implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas. Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
 
