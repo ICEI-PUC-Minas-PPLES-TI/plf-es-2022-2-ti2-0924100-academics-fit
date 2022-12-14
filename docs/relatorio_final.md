@@ -278,7 +278,7 @@ Observações Pessoais:
 
 Diogo:
 
-Enzo:
+Enzo: Gostei da equipe bem como do projeto, apesar de não ter dado tempo de impletar todas as funcionalidades planejasdas conseguimos entregar o principal que e a montagem das fichas.
 
 Gabriel: Foi muito satisfatório trabalhar com cada integrante do grupo, realizamos o máximo possível com o tempo que tínhamos. Nos dedicamos a entender o que era exigido e melhor e adaptar a cada feedback dos orientadores.
 
