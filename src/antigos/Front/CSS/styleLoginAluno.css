@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: black;
+}
+
+body header{
+	background-image: url(2.jpg);
+	width: 100vw;
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-top: 0.5rem solid #ec4141;
+	border-bottom: 0.5rem solid #ec4141;
+}
+
+nav{
+	display: flex;
+	height: 90px;
+}
+
+nav .logo{
+	color: white;
+	width: 40%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 32px;
+	font-weight: bolder;
+	font-family: 'Quicksand', sans-serif;
+}
+
+
+nav .logo span{
+	color: #ec4141;
+	font-size: 32px;
+	margin-left: 5px;
+}
+
+nav ul{
+	width: 60%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+
+}
+
+nav ul li{
+	list-style: none;
+
+}
+
+nav ul .active{
+	border-bottom: 2px solid #ec4141;
+	color: #ec4141;
+
+}
+
+nav ul a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 14px;
+	padding: 1rem 1.2rem;
+	margin: 0 0.3rem;
+	color: white;
+}
+
+nav ul a:hover{
+	border-bottom: 2px solid #ec4141;
+	color: #ec4141;
+
+}
+
+.header-container{
+	position: relative;
+	display: block;
+	width: 40%;
+	top: 25%;
+	left: 2%;
+}
+
+.header-container h1{
+	color: white;
+	font-size: 45px;
+	text-transform: uppercase;
+	font-family: 'Quicksand', sans-serif;
+	letter-spacing: 2px;
+
+}
+.text-primary{
+	color: #ec4141;
+
+}
+.header-container h1 .border-bottom{
+	border-bottom: 2px solid #ec4141;	
+
+}
+
+.header-container p{
+	color: white;
+	margin-top: 2rem;
+	width: 80%;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.btn{
+	padding: 0.6rem 1.5rem;
+	cursor: pointer;
+	outline: none;
+	border: 1.4px solid black;
+
+}
+
+.btn-primary{
+	text-transform: uppercase;
+	font-family: 'Quicksand', sans-serif;
+	letter-spacing: 2px;
+	margin-top: 2rem;
+	color: white;
+	background-color: #ec4141;
+	border: 1.4px solid #ec4141;
+	border-radius: 5px;
+	font-size: 18px;
+	transition: all 0.5s linear;
+}
+
+.btn-primary:hover{
+	background-color: transparent;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 60px;
+}
+
+.card {
+  background-color: #ffffff80;
+  padding: 30px;
+  border-radius: 4%;
+  box-shadow: 3px 3px 1px 0px #00000060
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 20px;
+  color: #000000
+}
+
+.label-float input{
+  width: 100%;
+  padding: 5px 5px;
+  display: inline-block;
+  border: 0;
+  border-bottom: 2px solid #000000;
+  background-color: transparent;
+  outline: none;
+  min-width: 180px;
+  font-size: 16px;
+  transition: all .3s ease-out;
+  border-radius: 0;
+  
+}
+
+.label-float{
+  position: relative;
+  padding-top: 13px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.label-float input:focus{
+  border-bottom: 2px solid #000000;
+}
+
+.label-float label{
+  color: #000000;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 13px;
+  transition: all .3s ease-out;
+}
+
+.label-float input:focus + label,
+.label-float input:valid + label{
+  font-size: 13px;
+  margin-top: 0;
+  color: #ff0000
+}
+
+button{
+  background-color: transparent;
+  border-color: #000000;
+  color: #000000;
+  padding: 7px;
+  font-weight: bold;
+  font-size: 12pt;
+  margin-top: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  transition: all .4s ease-out;
+}
+
+button:hover{
+  background-color: #ff0000;
+  color: #fff;
+}
+
+.justify-center{
+  display: flex;
+  justify-content: center;
+}
+
+hr{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: 60%;
+}
+
+p{
+  color: #000000;
+  font-size: 14pt;
+  text-align: center;
+}
+
+a{
+  color: #000000;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all .3s ease-out;
+}
+
+a:hover{
+  color: #ff0000;
+}
+
+.fa-eye{
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  cursor: pointer;
+  color: #000000;
+}
+
+ #msgError{
+  text-align: center;
+  color: #ff0000;
+  background-color: #ffbbbb;
+  padding: 10px;
+  border-radius: 4px;
+  display: none;
+}
