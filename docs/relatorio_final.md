@@ -298,7 +298,7 @@ Dos artefatos: https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924
 
 Da apresentação final (armazenado no repositório);
 
-Do vídeo de apresentação (armazenado no repositório).
+Do vídeo de apresentação: https://drive.google.com/file/d/1zhkqmJmoS9DmE5raAfwn4Lx7S-KLXlfy/view?usp=share_link ;
 
 
 
