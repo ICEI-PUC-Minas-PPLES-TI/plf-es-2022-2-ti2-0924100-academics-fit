@@ -292,9 +292,9 @@ Lucas:
 
 **Colocar link:**
 
-Do código (armazenado no repositório);
+Do código: https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-academics-fit/tree/master/src ;
 
-Dos artefatos (armazenado do repositório);
+Dos artefatos: https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-academics-fit/tree/master/docs/imagens ;
 
 Da apresentação final (armazenado no repositório);
 
