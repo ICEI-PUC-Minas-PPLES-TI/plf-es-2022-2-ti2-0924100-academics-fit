@@ -87,15 +87,14 @@ O aplicativo em desenvolvimento, surge para solucionar esse deficit gerado pela 
 ### 3.3.1 Processo de cadastro/login e acesso ao sistema
 
 **Este sub-processo mostra o passo-a-passo para o cadastro/login do personal/aluno, até seu acesso ao sistema.**
-![Cadastro_login e acesso ao sistema Diagrama](https://user-images.githubusercontent.com/57960595/205418772-ec65da62-931b-4d3f-aef7-eac15e3eaf19.png)
-
+![Cadastro_login e acesso ao sistema Diagrama (1)](https://user-images.githubusercontent.com/57960595/207632996-5ea4073a-4821-4050-9e63-1ac1438b1e91.png)
 
 
 ### 3.3.2 Sub-processo – Montagem de ficha
 
 **Este sub-processo apresenta o processo de montagem de ficha do usuário que foi solicitada pelo mesmo.**
 
-![Montagem ficha Diagrama](https://user-images.githubusercontent.com/57960595/205450630-2b3be2fb-74b5-4040-85ef-9d3118f4569d.png)
+![Criacao_de_Ficha_Diagram_2](https://user-images.githubusercontent.com/57960595/207641483-8354875c-55fd-4bee-9a3a-e507860a3631.png)
 
 ### 3.3.3 Sub-processo - Contratação de profissionais.
 
@@ -103,10 +102,15 @@ O aplicativo em desenvolvimento, surge para solucionar esse deficit gerado pela 
 
 ![Contratacao profissionais Diagrama](https://user-images.githubusercontent.com/57960595/205284420-5661bd9c-171c-423b-9e3e-6ce785046c95.png)
 
-
 ### 3.3.4 Processo - Marcação de aula.
 
 **Processo voltado à conexão entre aluno e personal.**![Busca de profissionais pelos alunos Diagrama](https://user-images.githubusercontent.com/57960595/206734096-b2c01ba6-34d1-4e3d-b919-fd45eb3ad9fd.png)
+
+### 3.3.2 Sub-processo – Solicitação de ficha
+
+**Este sub-processo apresenta o processo de solicitação de ficha pelo aluno.**
+
+![solicitacaoficha](https://user-images.githubusercontent.com/57960595/207641586-ff177cf0-6683-409d-835d-2984024f263d.png)
 
 
 ## 4. Projeto da Solução
@@ -129,19 +133,22 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
 | Nome | Caixa de Texto | deve possuir apenas letras e tamanho máximo de 25 caracteres |  |
-| Email | Caixa de Texto | tamanho máximo de 30 caracteres e caracter especial @ |  |
-| Senha | Caixa de Texto | deve possuir tamanho minimo de 12 caracteres |  |
-| CPF | Caixa de Texto | deve possuir apenas números e tamnho de 11 digitos |  |
+| sobrenome | Caixa de Texto | deve possuir apenas letras e tamanho máximo de 25 caracteres  |  |
+| Idade | Campo numerico | deve possuir apenas numeros e 3 digitos no máximo |  |
+| genero | Caixa de seleção | deve escolher entre 2 opções |  |
+| peso | Caixa de Texto | deve possuir apenas números e tamanho maximo de 7 digitos |  |
 | Altura | Campo númerico | deve ser escrito em centimetros |  |
-| Peso | Campo númerico | deve ser escrito em gramas |  |
+| email | Caixa de texto | deve possuir tamanho maximo de 25 caracteres e possuir caracter especial @ |  |
+| Senha | Caixa de Texto | deve possuir tamanho minimo de 12 caracteres |  |
 
-**Avaliação sistema**
+**Cadastrar conta**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Nota | caixa de seleção | de 1 a 10 estrelas  |  |
-| Comentario | caixa de Texto | Máximo de 300 caracteres | |
-| recomendariaosistema | Caixa de seleção| valor de 1 a 10 |  |
+| Nome | caixa de texto | deve possuir apenas letras e tamanho máximo de 25 caracteres  |  |
+| sobrenome | Caixa de Texto | deve possuir apenas letras e tamanho máximo de 25 caracteres  |  |
+| email | Caixa de texto | deve possuir tamanho maximo de 25 caracteres e possuir caracter especial @ |  |
+| Senha | Caixa de Texto | deve possuir tamanho minimo de 12 caracteres |  |
 
 #### Processo 2 – Montagem de ficha
 
@@ -157,7 +164,6 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
 |  Especificar disponibilidade  |  Múltipla escolha  |  Se o usuário deverá especificar a frequência de disponibilidade e os dias da semana | Nada selecionado
-
 
 
 #### Processo 3  – contratação de profissionais
@@ -208,7 +214,7 @@ Descreva qual(is) tecnologias você vai usar para resolver o seu problema, ou se
 
 Apresente o modelo de dados por meio de um modelo relacional ou Diagrama de Entidade-Relacionamento (DER) que contemple todos conceitos e atributos apresentados item anterior.
 
-![modelo_relacional](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-academics-fit/blob/master/docs/imagens/bd4.png)
+![banco](https://user-images.githubusercontent.com/57960595/207641080-be4715ae-7938-4990-9dd1-5d5bb30b8736.png)
 
 ## 6. Indicadores de desempenho
 
@@ -226,32 +232,37 @@ Obs.: todas as informações para gerar os indicadores devem estar no diagrama d
 
 ## 7.Sistema desenvolvido
 
-Faça aqui uma breve descrição do software e coloque as principais telas com uma explicação de como usar cada uma.
+![inicial](https://user-images.githubusercontent.com/57960595/207634630-fd3f5683-7c4f-4c19-8650-14e1a4a6be5a.png)
+
+Página inicial para entrar no sistema
+
+![cadastro](https://user-images.githubusercontent.com/57960595/207640950-eada1d15-ef3e-4a3f-a3bd-79ecfd4515dc.png)
+
+Tela de cadastro de personal e de aluno
+
+![menu](https://user-images.githubusercontent.com/57960595/207636007-8bbaeec6-8d85-4a5a-8df2-c66e1c696467.png)
+
+Tela de menu do aluno usada para procurar personais e solicitar montagem de ficha
+
+![procurar personais](https://user-images.githubusercontent.com/57960595/207636863-fb302ef5-c644-47ce-a10a-3c8cb6320baf.png)
+
+Tela para procurar personais na hora de solicitar a montagem de ficha
+
+![minhas fichas](https://user-images.githubusercontent.com/57960595/207638914-cf242cd1-7810-4b4b-a19d-0fad986327b0.png)
+
+Tela mostrando as fichas ja cadastradas para o aluno
+
+![aprovacao de solicitacao de ficha](https://user-images.githubusercontent.com/57960595/207639245-fca17033-f316-4f3e-b5eb-bd7dcafdb7c3.png)
+
+Tela mostrando as solicitações de ficha para o personal
+
+![fichas ja enviadas](https://user-images.githubusercontent.com/57960595/207639814-f41c0c24-dde2-45ab-9406-9697380ded7b.png)
+
+Tela mostrando as fichas preenchidas
 
 ## 8. Conclusão
 
 Apresente aqui a conclusão do seu trabalho. Discussão dos resultados obtidos no trabalho, onde se verifica as observações pessoais de cada aluno. Poderá também apresentar sugestões de novas linhas de estudo.
-
-# REFERÊNCIAS
-
-Como um projeto de software não requer revisão bibliográfica, a inclusão das referências não é obrigatória. No entanto, caso você deseje incluir referências relacionadas às tecnologias, padrões, ou metodologias que serão usadas no seu trabalho, relacione-as de acordo com a ABNT.
-
-Verifique no link abaixo como devem ser as referências no padrão ABNT:
-
-http://www.pucminas.br/imagedb/documento/DOC\_DSC\_NOME\_ARQUI20160217102425.pdf
-
-
-**[1.1]** - _ELMASRI, Ramez; NAVATHE, Sham. **Sistemas de banco de dados**. 7. ed. São Paulo: Pearson, c2019. E-book. ISBN 9788543025001._
-
-**[1.2]** - _COPPIN, Ben. **Inteligência artificial**. Rio de Janeiro, RJ: LTC, c2010. E-book. ISBN 978-85-216-2936-8._
-
-**[1.3]** - _CORMEN, Thomas H. et al. **Algoritmos: teoria e prática**. Rio de Janeiro, RJ: Elsevier, Campus, c2012. xvi, 926 p. ISBN 9788535236996._
-
-**[1.4]** - _SUTHERLAND, Jeffrey Victor. **Scrum: a arte de fazer o dobro do trabalho na metade do tempo**. 2. ed. rev. São Paulo, SP: Leya, 2016. 236, [4] p. ISBN 9788544104514._
-
-**[1.5]** - _RUSSELL, Stuart J.; NORVIG, Peter. **Inteligência artificial**. Rio de Janeiro: Elsevier, c2013. xxi, 988 p. ISBN 9788535237016._
-
-
 
 # APÊNDICES
 
