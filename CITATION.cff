@@ -1,19 +1,19 @@
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
-title: 
+title: AcademicsFIT
 authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
+  - family-names: Martins de Assis
+    given-names: Diogo
+  - family-names: Peligrino
+    given-names: Enzo Otavio
+  - family-names: Dolabela Marques
+    given-names: Gabriel
+  - family-names: Carvalho Almeida
+    given-names: Henrique
+  - family-names: de Oliveira Pauletti
+    given-names: João Pedro
+  - family-names: Monteiro Lima
+    given-names: Lucas
   - name-suffix: Professor
     affiliation: PUC Minas
     family-names: Neves Rodrigues 
@@ -27,9 +27,9 @@ authors:
     family-names: Bastos de Paula
     given-names: Hugo  
 keywords:
-  - 
-  - 
-repository-code: 
+  - Academia
+  - Musculação
+repository-code: https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-academics-fit
 license: CC-BY-4.0
 version: 1.0.0
 date-released: 2021-12-14
